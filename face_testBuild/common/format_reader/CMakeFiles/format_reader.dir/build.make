@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include common/format_reader/CMakeFiles/format_reader.dir/depend.make
@@ -59,16 +59,16 @@ include common/format_reader/CMakeFiles/format_reader.dir/flags.make
 
 common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o: common/format_reader/CMakeFiles/format_reader.dir/flags.make
 common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o: /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/MnistUbyte.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/MnistUbyte.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp
 
 common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/format_reader.dir/MnistUbyte.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp > CMakeFiles/format_reader.dir/MnistUbyte.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp > CMakeFiles/format_reader.dir/MnistUbyte.cpp.i
 
 common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/format_reader.dir/MnistUbyte.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp -o CMakeFiles/format_reader.dir/MnistUbyte.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp -o CMakeFiles/format_reader.dir/MnistUbyte.cpp.s
 
 common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o.requires:
 
@@ -83,16 +83,16 @@ common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o.provides.buil
 
 common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o: common/format_reader/CMakeFiles/format_reader.dir/flags.make
 common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o: /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/bmp.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/bmp.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp
 
 common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/format_reader.dir/bmp.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp > CMakeFiles/format_reader.dir/bmp.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp > CMakeFiles/format_reader.dir/bmp.cpp.i
 
 common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/format_reader.dir/bmp.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp -o CMakeFiles/format_reader.dir/bmp.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp -o CMakeFiles/format_reader.dir/bmp.cpp.s
 
 common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o.requires:
 
@@ -107,16 +107,16 @@ common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o.provides.build: comm
 
 common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o: common/format_reader/CMakeFiles/format_reader.dir/flags.make
 common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o: /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/format_reader.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/format_reader.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp
 
 common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/format_reader.dir/format_reader.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp > CMakeFiles/format_reader.dir/format_reader.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp > CMakeFiles/format_reader.dir/format_reader.cpp.i
 
 common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/format_reader.dir/format_reader.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp -o CMakeFiles/format_reader.dir/format_reader.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp -o CMakeFiles/format_reader.dir/format_reader.cpp.s
 
 common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o.requires:
 
@@ -131,16 +131,16 @@ common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o.provides.b
 
 common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o: common/format_reader/CMakeFiles/format_reader.dir/flags.make
 common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o: /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/opencv_wraper.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/format_reader.dir/opencv_wraper.cpp.o -c /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp
 
 common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/format_reader.dir/opencv_wraper.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp > CMakeFiles/format_reader.dir/opencv_wraper.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp > CMakeFiles/format_reader.dir/opencv_wraper.cpp.i
 
 common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/format_reader.dir/opencv_wraper.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp -o CMakeFiles/format_reader.dir/opencv_wraper.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp -o CMakeFiles/format_reader.dir/opencv_wraper.cpp.s
 
 common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o.requires:
 
@@ -173,8 +173,8 @@ intel64/Release/lib/libformat_reader.so: /opt/intel/openvino_2019.3.334/opencv/l
 intel64/Release/lib/libformat_reader.so: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_imgproc.so.4.1.2
 intel64/Release/lib/libformat_reader.so: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_core.so.4.1.2
 intel64/Release/lib/libformat_reader.so: common/format_reader/CMakeFiles/format_reader.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../intel64/Release/lib/libformat_reader.so"
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/format_reader.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library ../../intel64/Release/lib/libformat_reader.so"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/format_reader.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 common/format_reader/CMakeFiles/format_reader.dir/build: intel64/Release/lib/libformat_reader.so
@@ -189,10 +189,10 @@ common/format_reader/CMakeFiles/format_reader.dir/requires: common/format_reader
 .PHONY : common/format_reader/CMakeFiles/format_reader.dir/requires
 
 common/format_reader/CMakeFiles/format_reader.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/common/format_reader && $(CMAKE_COMMAND) -P CMakeFiles/format_reader.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader && $(CMAKE_COMMAND) -P CMakeFiles/format_reader.dir/cmake_clean.cmake
 .PHONY : common/format_reader/CMakeFiles/format_reader.dir/clean
 
 common/format_reader/CMakeFiles/format_reader.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/common/format_reader /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/common/format_reader /home/jakobtroidl/Desktop/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/common/format_reader /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : common/format_reader/CMakeFiles/format_reader.dir/depend
 

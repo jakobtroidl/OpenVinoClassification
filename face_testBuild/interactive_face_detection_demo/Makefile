@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/rule
 .PHONY : interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ interactive_face_detection_demo: interactive_face_detection_demo/CMakeFiles/inte
 
 # fast build rule for target.
 interactive_face_detection_demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build
 .PHONY : interactive_face_detection_demo/fast
 
 detectors.o: detectors.cpp.o
@@ -177,7 +177,7 @@ detectors.o: detectors.cpp.o
 
 # target to build an object file
 detectors.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o
 .PHONY : detectors.cpp.o
 
 detectors.i: detectors.cpp.i
@@ -186,7 +186,7 @@ detectors.i: detectors.cpp.i
 
 # target to preprocess a source file
 detectors.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.i
 .PHONY : detectors.cpp.i
 
 detectors.s: detectors.cpp.s
@@ -195,7 +195,7 @@ detectors.s: detectors.cpp.s
 
 # target to generate assembly for a file
 detectors.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.s
 .PHONY : detectors.cpp.s
 
 face.o: face.cpp.o
@@ -204,7 +204,7 @@ face.o: face.cpp.o
 
 # target to build an object file
 face.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o
 .PHONY : face.cpp.o
 
 face.i: face.cpp.i
@@ -213,7 +213,7 @@ face.i: face.cpp.i
 
 # target to preprocess a source file
 face.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.i
 .PHONY : face.cpp.i
 
 face.s: face.cpp.s
@@ -222,7 +222,7 @@ face.s: face.cpp.s
 
 # target to generate assembly for a file
 face.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.s
 .PHONY : face.cpp.s
 
 main.o: main.cpp.o
@@ -231,7 +231,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -240,7 +240,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -249,7 +249,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 visualizer.o: visualizer.cpp.o
@@ -258,7 +258,7 @@ visualizer.o: visualizer.cpp.o
 
 # target to build an object file
 visualizer.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o
 .PHONY : visualizer.cpp.o
 
 visualizer.i: visualizer.cpp.i
@@ -267,7 +267,7 @@ visualizer.i: visualizer.cpp.i
 
 # target to preprocess a source file
 visualizer.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.i
 .PHONY : visualizer.cpp.i
 
 visualizer.s: visualizer.cpp.s
@@ -276,7 +276,7 @@ visualizer.s: visualizer.cpp.s
 
 # target to generate assembly for a file
 visualizer.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.s
 .PHONY : visualizer.cpp.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

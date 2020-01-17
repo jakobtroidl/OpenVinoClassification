@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/opt/intel/openvino/inference_engine/demos")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jakobtroidl/Desktop/face_testBuild")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

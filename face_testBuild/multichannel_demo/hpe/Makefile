@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/rule
 .PHONY : multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ multi-channel-human-pose-estimation-demo: multichannel_demo/hpe/CMakeFiles/multi
 
 # fast build rule for target.
 multi-channel-human-pose-estimation-demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build
 .PHONY : multi-channel-human-pose-estimation-demo/fast
 
 human_pose.o: human_pose.cpp.o
@@ -177,7 +177,7 @@ human_pose.o: human_pose.cpp.o
 
 # target to build an object file
 human_pose.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o
 .PHONY : human_pose.cpp.o
 
 human_pose.i: human_pose.cpp.i
@@ -186,7 +186,7 @@ human_pose.i: human_pose.cpp.i
 
 # target to preprocess a source file
 human_pose.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.i
 .PHONY : human_pose.cpp.i
 
 human_pose.s: human_pose.cpp.s
@@ -195,7 +195,7 @@ human_pose.s: human_pose.cpp.s
 
 # target to generate assembly for a file
 human_pose.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.s
 .PHONY : human_pose.cpp.s
 
 main.o: main.cpp.o
@@ -204,7 +204,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -213,7 +213,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -222,7 +222,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 peak.o: peak.cpp.o
@@ -231,7 +231,7 @@ peak.o: peak.cpp.o
 
 # target to build an object file
 peak.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o
 .PHONY : peak.cpp.o
 
 peak.i: peak.cpp.i
@@ -240,7 +240,7 @@ peak.i: peak.cpp.i
 
 # target to preprocess a source file
 peak.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.i
 .PHONY : peak.cpp.i
 
 peak.s: peak.cpp.s
@@ -249,7 +249,7 @@ peak.s: peak.cpp.s
 
 # target to generate assembly for a file
 peak.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.s
 .PHONY : peak.cpp.s
 
 postprocess.o: postprocess.cpp.o
@@ -258,7 +258,7 @@ postprocess.o: postprocess.cpp.o
 
 # target to build an object file
 postprocess.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o
 .PHONY : postprocess.cpp.o
 
 postprocess.i: postprocess.cpp.i
@@ -267,7 +267,7 @@ postprocess.i: postprocess.cpp.i
 
 # target to preprocess a source file
 postprocess.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.i
 .PHONY : postprocess.cpp.i
 
 postprocess.s: postprocess.cpp.s
@@ -276,7 +276,7 @@ postprocess.s: postprocess.cpp.s
 
 # target to generate assembly for a file
 postprocess.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.s
 .PHONY : postprocess.cpp.s
 
 postprocessor.o: postprocessor.cpp.o
@@ -285,7 +285,7 @@ postprocessor.o: postprocessor.cpp.o
 
 # target to build an object file
 postprocessor.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o
 .PHONY : postprocessor.cpp.o
 
 postprocessor.i: postprocessor.cpp.i
@@ -294,7 +294,7 @@ postprocessor.i: postprocessor.cpp.i
 
 # target to preprocess a source file
 postprocessor.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.i
 .PHONY : postprocessor.cpp.i
 
 postprocessor.s: postprocessor.cpp.s
@@ -303,7 +303,7 @@ postprocessor.s: postprocessor.cpp.s
 
 # target to generate assembly for a file
 postprocessor.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.s
 .PHONY : postprocessor.cpp.s
 
 render_human_pose.o: render_human_pose.cpp.o
@@ -312,7 +312,7 @@ render_human_pose.o: render_human_pose.cpp.o
 
 # target to build an object file
 render_human_pose.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o
 .PHONY : render_human_pose.cpp.o
 
 render_human_pose.i: render_human_pose.cpp.i
@@ -321,7 +321,7 @@ render_human_pose.i: render_human_pose.cpp.i
 
 # target to preprocess a source file
 render_human_pose.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.i
 .PHONY : render_human_pose.cpp.i
 
 render_human_pose.s: render_human_pose.cpp.s
@@ -330,7 +330,7 @@ render_human_pose.s: render_human_pose.cpp.s
 
 # target to generate assembly for a file
 render_human_pose.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.s
 .PHONY : render_human_pose.cpp.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

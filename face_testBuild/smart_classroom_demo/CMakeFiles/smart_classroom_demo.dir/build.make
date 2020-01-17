@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/depend.make
@@ -59,16 +59,16 @@ include smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp > CMakeFiles/smart_classroom_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp > CMakeFiles/smart_classroom_demo.dir/main.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp -o CMakeFiles/smart_classroom_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/main.cpp -o CMakeFiles/smart_classroom_demo.dir/main.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o.provides.bui
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp > CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp > CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp -o CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/action_detector.cpp -o CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o.requires:
 
@@ -107,16 +107,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp > CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp > CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp -o CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/align_transform.cpp -o CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o.requires:
 
@@ -131,16 +131,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp > CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp > CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp -o CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/cnn.cpp -o CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o.requires:
 
@@ -155,16 +155,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o.provides.
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp > CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp > CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp -o CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/detector.cpp -o CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o.requires:
 
@@ -179,16 +179,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o.prov
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp > CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp > CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp -o CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/image_grabber.cpp -o CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o.requires:
 
@@ -203,16 +203,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp > CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp > CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp -o CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/logger.cpp -o CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o.requires:
 
@@ -227,16 +227,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o.provid
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp > CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp > CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp -o CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/reid_gallery.cpp -o CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o.requires:
 
@@ -251,16 +251,16 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o.
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/flags.make
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o: /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o -c /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp > CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp > CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.i
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp -o CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/smart_classroom_demo/src/tracker.cpp -o CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.s
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o.requires:
 
@@ -309,8 +309,8 @@ intel64/Release/smart_classroom_demo: /opt/intel/openvino_2019.3.334/opencv/lib/
 intel64/Release/smart_classroom_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_imgproc.so.4.1.2
 intel64/Release/smart_classroom_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_core.so.4.1.2
 intel64/Release/smart_classroom_demo: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../intel64/Release/smart_classroom_demo"
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smart_classroom_demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable ../intel64/Release/smart_classroom_demo"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/smart_classroom_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build: intel64/Release/smart_classroom_demo
@@ -330,10 +330,10 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/requires: smart_classro
 .PHONY : smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/requires
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo && $(CMAKE_COMMAND) -P CMakeFiles/smart_classroom_demo.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo && $(CMAKE_COMMAND) -P CMakeFiles/smart_classroom_demo.dir/cmake_clean.cmake
 .PHONY : smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/clean
 
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/smart_classroom_demo /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/smart_classroom_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/depend
 

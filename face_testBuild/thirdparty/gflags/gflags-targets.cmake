@@ -46,14 +46,14 @@ add_library(gflags_nothreads_static STATIC IMPORTED)
 
 set_target_properties(gflags_nothreads_static PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "GFLAGS_IS_A_DLL=0"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags/include"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags/include"
 )
 
 # Import target "gflags_nothreads_static" for configuration "Release"
 set_property(TARGET gflags_nothreads_static APPEND PROPERTY IMPORTED_CONFIGURATIONS RELEASE)
 set_target_properties(gflags_nothreads_static PROPERTIES
   IMPORTED_LINK_INTERFACE_LANGUAGES_RELEASE "CXX"
-  IMPORTED_LOCATION_RELEASE "/home/jakobtroidl/Desktop/face_testBuild/intel64/Release/lib/libgflags_nothreads.a"
+  IMPORTED_LOCATION_RELEASE "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/intel64/Release/lib/libgflags_nothreads.a"
   )
 
 # This file does not depend on other imported targets which have

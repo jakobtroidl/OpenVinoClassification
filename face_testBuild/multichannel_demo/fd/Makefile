@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/rule
 .PHONY : multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ multi-channel-face-detection-demo: multichannel_demo/fd/CMakeFiles/multi-channel
 
 # fast build rule for target.
 multi-channel-face-detection-demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build
 .PHONY : multi-channel-face-detection-demo/fast
 
 main.o: main.cpp.o
@@ -177,7 +177,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -186,7 +186,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -195,7 +195,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -225,6 +225,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Directory level rules for directory thirdparty/gflags
@@ -84,7 +84,7 @@ thirdparty/gflags/preinstall:
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/all:
 	$(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/depend
 	$(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=18,19,20 "Built target gflags_nothreads_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=18,19,20 "Built target gflags_nothreads_static"
 .PHONY : thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/all
 
 # Include target in all.
@@ -94,9 +94,9 @@ all: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/all
 
 # Build rule for subdir invocation for target.
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/rule
 
 # Convenience name for target.
@@ -139,7 +139,7 @@ common/format_reader/preinstall:
 common/format_reader/CMakeFiles/format_reader.dir/all:
 	$(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/depend
 	$(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=7,8,9 "Built target format_reader"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=7,8,9 "Built target format_reader"
 .PHONY : common/format_reader/CMakeFiles/format_reader.dir/all
 
 # Include target in all.
@@ -149,9 +149,9 @@ all: common/format_reader/CMakeFiles/format_reader.dir/all
 
 # Build rule for subdir invocation for target.
 common/format_reader/CMakeFiles/format_reader.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 common/format_reader/CMakeFiles/format_reader.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : common/format_reader/CMakeFiles/format_reader.dir/rule
 
 # Convenience name for target.
@@ -194,14 +194,14 @@ ie_cpu_extension/preinstall:
 ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all:
 	$(MAKE) -f ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/build.make ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/depend
 	$(MAKE) -f ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/build.make ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target ie_cpu_extension"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58 "Built target ie_cpu_extension"
 .PHONY : ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 
 # Build rule for subdir invocation for target.
 ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 34
 	$(MAKE) -f CMakeFiles/Makefile2 ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/rule
 
 # Convenience name for target.
@@ -262,7 +262,7 @@ crossroad_camera_demo/CMakeFiles/ie_samples.dir/all: super_resolution_demo/CMake
 crossroad_camera_demo/CMakeFiles/ie_samples.dir/all: text_detection_demo/CMakeFiles/text_detection_demo.dir/all
 	$(MAKE) -f crossroad_camera_demo/CMakeFiles/ie_samples.dir/build.make crossroad_camera_demo/CMakeFiles/ie_samples.dir/depend
 	$(MAKE) -f crossroad_camera_demo/CMakeFiles/ie_samples.dir/build.make crossroad_camera_demo/CMakeFiles/ie_samples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num= "Built target ie_samples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num= "Built target ie_samples"
 .PHONY : crossroad_camera_demo/CMakeFiles/ie_samples.dir/all
 
 # Include target in all.
@@ -272,9 +272,9 @@ all: crossroad_camera_demo/CMakeFiles/ie_samples.dir/all
 
 # Build rule for subdir invocation for target.
 crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 100
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 100
 	$(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/CMakeFiles/ie_samples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule
 
 # Convenience name for target.
@@ -300,7 +300,7 @@ crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/all: thirdparty/gflag
 crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/depend
 	$(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=5,6 "Built target crossroad_camera_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=5,6 "Built target crossroad_camera_demo"
 .PHONY : crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/all
 
 # Include target in all.
@@ -310,9 +310,9 @@ all: crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/all
 
 # Build rule for subdir invocation for target.
 crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/rule
 
 # Convenience name for target.
@@ -356,7 +356,7 @@ gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/all: thirdparty/gflags/
 gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/build.make gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/depend
 	$(MAKE) -f gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/build.make gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=10,11,12,13,14,15,16,17 "Built target gaze_estimation_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=10,11,12,13,14,15,16,17 "Built target gaze_estimation_demo"
 .PHONY : gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/all
 
 # Include target in all.
@@ -366,9 +366,9 @@ all: gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/all
 
 # Build rule for subdir invocation for target.
 gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 45
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 45
 	$(MAKE) -f CMakeFiles/Makefile2 gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : gaze_estimation_demo/CMakeFiles/gaze_estimation_demo.dir/rule
 
 # Convenience name for target.
@@ -412,7 +412,7 @@ human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/all: thirdp
 human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/depend
 	$(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=21,22,23,24 "Built target human_pose_estimation_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=21,22,23,24 "Built target human_pose_estimation_demo"
 .PHONY : human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/all
 
 # Include target in all.
@@ -422,9 +422,9 @@ all: human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/all
 
 # Build rule for subdir invocation for target.
 human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/rule
 
 # Convenience name for target.
@@ -468,7 +468,7 @@ interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/a
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/depend
 	$(MAKE) -f interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build.make interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=59,60,61 "Built target interactive_face_detection_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=59,60,61 "Built target interactive_face_detection_demo"
 .PHONY : interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/all
 
 # Include target in all.
@@ -478,9 +478,9 @@ all: interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.
 
 # Build rule for subdir invocation for target.
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 40
 	$(MAKE) -f CMakeFiles/Makefile2 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/rule
 
 # Convenience name for target.
@@ -525,7 +525,7 @@ mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/all: common/format_reader/CMakeFile
 mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/build.make mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/depend
 	$(MAKE) -f mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/build.make mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=62,63 "Built target mask_rcnn_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=62,63 "Built target mask_rcnn_demo"
 .PHONY : mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/all
 
 # Include target in all.
@@ -535,9 +535,9 @@ all: mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/all
 
 # Build rule for subdir invocation for target.
 mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : mask_rcnn_demo/CMakeFiles/mask_rcnn_demo.dir/rule
 
 # Convenience name for target.
@@ -605,7 +605,7 @@ multichannel_demo/common/CMakeFiles/common.dir/all: thirdparty/gflags/CMakeFiles
 multichannel_demo/common/CMakeFiles/common.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/depend
 	$(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=1,2,3,4 "Built target common"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=1,2,3,4 "Built target common"
 .PHONY : multichannel_demo/common/CMakeFiles/common.dir/all
 
 # Include target in all.
@@ -615,9 +615,9 @@ all: multichannel_demo/common/CMakeFiles/common.dir/all
 
 # Build rule for subdir invocation for target.
 multichannel_demo/common/CMakeFiles/common.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/CMakeFiles/common.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : multichannel_demo/common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -662,7 +662,7 @@ multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/all: ie_cp
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/all: multichannel_demo/common/CMakeFiles/common.dir/all
 	$(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/depend
 	$(MAKE) -f multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build.make multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=64 "Built target multi-channel-face-detection-demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=64 "Built target multi-channel-face-detection-demo"
 .PHONY : multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/all
 
 # Include target in all.
@@ -672,9 +672,9 @@ all: multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/all
 
 # Build rule for subdir invocation for target.
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/rule
 
 # Convenience name for target.
@@ -719,7 +719,7 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/al
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/all: multichannel_demo/common/CMakeFiles/common.dir/all
 	$(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/depend
 	$(MAKE) -f multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build.make multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=65,66,67,68,69 "Built target multi-channel-human-pose-estimation-demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=65,66,67,68,69 "Built target multi-channel-human-pose-estimation-demo"
 .PHONY : multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/all
 
 # Include target in all.
@@ -729,9 +729,9 @@ all: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.d
 
 # Build rule for subdir invocation for target.
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 46
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 46
 	$(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/rule
 
 # Convenience name for target.
@@ -775,7 +775,7 @@ my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/all: thirdparty/gfl
 my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/build.make my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/depend
 	$(MAKE) -f my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/build.make my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=70,71,72,73 "Built target my_face_detection_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=70,71,72,73 "Built target my_face_detection_demo"
 .PHONY : my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/all
 
 # Include target in all.
@@ -785,9 +785,9 @@ all: my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/all
 
 # Build rule for subdir invocation for target.
 my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : my_face_detection_demo/CMakeFiles/my_face_detection_demo.dir/rule
 
 # Convenience name for target.
@@ -832,7 +832,7 @@ object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.d
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/build.make object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/depend
 	$(MAKE) -f object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/build.make object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=74 "Built target object_detection_demo_faster_rcnn"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=74 "Built target object_detection_demo_faster_rcnn"
 .PHONY : object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/all
 
 # Include target in all.
@@ -842,9 +842,9 @@ all: object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_r
 
 # Build rule for subdir invocation for target.
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/rule
 
 # Convenience name for target.
@@ -888,7 +888,7 @@ object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/a
 object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/build.make object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/depend
 	$(MAKE) -f object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/build.make object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=75,76 "Built target object_detection_demo_ssd_async"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=75,76 "Built target object_detection_demo_ssd_async"
 .PHONY : object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/all
 
 # Include target in all.
@@ -898,9 +898,9 @@ all: object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.
 
 # Build rule for subdir invocation for target.
 object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 39
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 39
 	$(MAKE) -f CMakeFiles/Makefile2 object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : object_detection_demo_ssd_async/CMakeFiles/object_detection_demo_ssd_async.dir/rule
 
 # Convenience name for target.
@@ -944,7 +944,7 @@ object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async
 object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/build.make object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/depend
 	$(MAKE) -f object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/build.make object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=77 "Built target object_detection_demo_yolov3_async"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=77 "Built target object_detection_demo_yolov3_async"
 .PHONY : object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/all
 
 # Include target in all.
@@ -954,9 +954,9 @@ all: object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_
 
 # Build rule for subdir invocation for target.
 object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 38
 	$(MAKE) -f CMakeFiles/Makefile2 object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : object_detection_demo_yolov3_async/CMakeFiles/object_detection_demo_yolov3_async.dir/rule
 
 # Convenience name for target.
@@ -1000,7 +1000,7 @@ pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/all: thirdparty/g
 pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/build.make pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/depend
 	$(MAKE) -f pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/build.make pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=78,79,80,81,82,83,84 "Built target pedestrian_tracker_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=78,79,80,81,82,83,84 "Built target pedestrian_tracker_demo"
 .PHONY : pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/all
 
 # Include target in all.
@@ -1010,9 +1010,9 @@ all: pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/all
 
 # Build rule for subdir invocation for target.
 pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 44
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 44
 	$(MAKE) -f CMakeFiles/Makefile2 pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : pedestrian_tracker_demo/CMakeFiles/pedestrian_tracker_demo.dir/rule
 
 # Convenience name for target.
@@ -1056,7 +1056,7 @@ security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/all: th
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/build.make security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/depend
 	$(MAKE) -f security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/build.make security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=85 "Built target security_barrier_camera_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=85 "Built target security_barrier_camera_demo"
 .PHONY : security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/all
 
 # Include target in all.
@@ -1066,9 +1066,9 @@ all: security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/al
 
 # Build rule for subdir invocation for target.
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 38
 	$(MAKE) -f CMakeFiles/Makefile2 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/rule
 
 # Convenience name for target.
@@ -1113,7 +1113,7 @@ segmentation_demo/CMakeFiles/segmentation_demo.dir/all: common/format_reader/CMa
 segmentation_demo/CMakeFiles/segmentation_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f segmentation_demo/CMakeFiles/segmentation_demo.dir/build.make segmentation_demo/CMakeFiles/segmentation_demo.dir/depend
 	$(MAKE) -f segmentation_demo/CMakeFiles/segmentation_demo.dir/build.make segmentation_demo/CMakeFiles/segmentation_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=86,87 "Built target segmentation_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=86,87 "Built target segmentation_demo"
 .PHONY : segmentation_demo/CMakeFiles/segmentation_demo.dir/all
 
 # Include target in all.
@@ -1123,9 +1123,9 @@ all: segmentation_demo/CMakeFiles/segmentation_demo.dir/all
 
 # Build rule for subdir invocation for target.
 segmentation_demo/CMakeFiles/segmentation_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 segmentation_demo/CMakeFiles/segmentation_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : segmentation_demo/CMakeFiles/segmentation_demo.dir/rule
 
 # Convenience name for target.
@@ -1170,7 +1170,7 @@ smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/all: common/format_read
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/depend
 	$(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=88,89,90,91,92,93,94 "Built target smart_classroom_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=88,89,90,91,92,93,94 "Built target smart_classroom_demo"
 .PHONY : smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/all
 
 # Include target in all.
@@ -1180,9 +1180,9 @@ all: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/all
 
 # Build rule for subdir invocation for target.
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 47
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 47
 	$(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/rule
 
 # Convenience name for target.
@@ -1227,7 +1227,7 @@ super_resolution_demo/CMakeFiles/super_resolution_demo.dir/all: common/format_re
 super_resolution_demo/CMakeFiles/super_resolution_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f super_resolution_demo/CMakeFiles/super_resolution_demo.dir/build.make super_resolution_demo/CMakeFiles/super_resolution_demo.dir/depend
 	$(MAKE) -f super_resolution_demo/CMakeFiles/super_resolution_demo.dir/build.make super_resolution_demo/CMakeFiles/super_resolution_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=95 "Built target super_resolution_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=95 "Built target super_resolution_demo"
 .PHONY : super_resolution_demo/CMakeFiles/super_resolution_demo.dir/all
 
 # Include target in all.
@@ -1237,9 +1237,9 @@ all: super_resolution_demo/CMakeFiles/super_resolution_demo.dir/all
 
 # Build rule for subdir invocation for target.
 super_resolution_demo/CMakeFiles/super_resolution_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 41
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 41
 	$(MAKE) -f CMakeFiles/Makefile2 super_resolution_demo/CMakeFiles/super_resolution_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : super_resolution_demo/CMakeFiles/super_resolution_demo.dir/rule
 
 # Convenience name for target.
@@ -1283,7 +1283,7 @@ text_detection_demo/CMakeFiles/text_detection_demo.dir/all: thirdparty/gflags/CM
 text_detection_demo/CMakeFiles/text_detection_demo.dir/all: ie_cpu_extension/CMakeFiles/ie_cpu_extension.dir/all
 	$(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/depend
 	$(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=96,97,98,99,100 "Built target text_detection_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=96,97,98,99,100 "Built target text_detection_demo"
 .PHONY : text_detection_demo/CMakeFiles/text_detection_demo.dir/all
 
 # Include target in all.
@@ -1293,9 +1293,9 @@ all: text_detection_demo/CMakeFiles/text_detection_demo.dir/all
 
 # Build rule for subdir invocation for target.
 text_detection_demo/CMakeFiles/text_detection_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 42
 	$(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/CMakeFiles/text_detection_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : text_detection_demo/CMakeFiles/text_detection_demo.dir/rule
 
 # Convenience name for target.

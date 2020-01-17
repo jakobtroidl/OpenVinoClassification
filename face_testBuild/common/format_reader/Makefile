@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/common/format_reader/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 common/format_reader/CMakeFiles/format_reader.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/CMakeFiles/format_reader.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 common/format_reader/CMakeFiles/format_reader.dir/rule
 .PHONY : common/format_reader/CMakeFiles/format_reader.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ format_reader: common/format_reader/CMakeFiles/format_reader.dir/rule
 
 # fast build rule for target.
 format_reader/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/build
 .PHONY : format_reader/fast
 
 MnistUbyte.o: MnistUbyte.cpp.o
@@ -177,7 +177,7 @@ MnistUbyte.o: MnistUbyte.cpp.o
 
 # target to build an object file
 MnistUbyte.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o
 .PHONY : MnistUbyte.cpp.o
 
 MnistUbyte.i: MnistUbyte.cpp.i
@@ -186,7 +186,7 @@ MnistUbyte.i: MnistUbyte.cpp.i
 
 # target to preprocess a source file
 MnistUbyte.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.i
 .PHONY : MnistUbyte.cpp.i
 
 MnistUbyte.s: MnistUbyte.cpp.s
@@ -195,7 +195,7 @@ MnistUbyte.s: MnistUbyte.cpp.s
 
 # target to generate assembly for a file
 MnistUbyte.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.s
 .PHONY : MnistUbyte.cpp.s
 
 bmp.o: bmp.cpp.o
@@ -204,7 +204,7 @@ bmp.o: bmp.cpp.o
 
 # target to build an object file
 bmp.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o
 .PHONY : bmp.cpp.o
 
 bmp.i: bmp.cpp.i
@@ -213,7 +213,7 @@ bmp.i: bmp.cpp.i
 
 # target to preprocess a source file
 bmp.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.i
 .PHONY : bmp.cpp.i
 
 bmp.s: bmp.cpp.s
@@ -222,7 +222,7 @@ bmp.s: bmp.cpp.s
 
 # target to generate assembly for a file
 bmp.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.s
 .PHONY : bmp.cpp.s
 
 format_reader.o: format_reader.cpp.o
@@ -231,7 +231,7 @@ format_reader.o: format_reader.cpp.o
 
 # target to build an object file
 format_reader.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o
 .PHONY : format_reader.cpp.o
 
 format_reader.i: format_reader.cpp.i
@@ -240,7 +240,7 @@ format_reader.i: format_reader.cpp.i
 
 # target to preprocess a source file
 format_reader.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.i
 .PHONY : format_reader.cpp.i
 
 format_reader.s: format_reader.cpp.s
@@ -249,7 +249,7 @@ format_reader.s: format_reader.cpp.s
 
 # target to generate assembly for a file
 format_reader.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.s
 .PHONY : format_reader.cpp.s
 
 opencv_wraper.o: opencv_wraper.cpp.o
@@ -258,7 +258,7 @@ opencv_wraper.o: opencv_wraper.cpp.o
 
 # target to build an object file
 opencv_wraper.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o
 .PHONY : opencv_wraper.cpp.o
 
 opencv_wraper.i: opencv_wraper.cpp.i
@@ -267,7 +267,7 @@ opencv_wraper.i: opencv_wraper.cpp.i
 
 # target to preprocess a source file
 opencv_wraper.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.i
 .PHONY : opencv_wraper.cpp.i
 
 opencv_wraper.s: opencv_wraper.cpp.s
@@ -276,7 +276,7 @@ opencv_wraper.s: opencv_wraper.cpp.s
 
 # target to generate assembly for a file
 opencv_wraper.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f common/format_reader/CMakeFiles/format_reader.dir/build.make common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.s
 .PHONY : opencv_wraper.cpp.s
 
 # Help Target
@@ -315,6 +315,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

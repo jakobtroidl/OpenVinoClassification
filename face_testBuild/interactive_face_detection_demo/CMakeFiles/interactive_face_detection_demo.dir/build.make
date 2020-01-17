@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/depend.make
@@ -59,16 +59,16 @@ include interactive_face_detection_demo/CMakeFiles/interactive_face_detection_de
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o: interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/flags.make
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o: /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp > CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp > CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.i
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp -o CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/detectors.cpp -o CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.s
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/detectors.cpp.o.requires:
 
@@ -83,16 +83,16 @@ interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/d
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o: interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/flags.make
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o: /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interactive_face_detection_demo.dir/face.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp > CMakeFiles/interactive_face_detection_demo.dir/face.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp > CMakeFiles/interactive_face_detection_demo.dir/face.cpp.i
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interactive_face_detection_demo.dir/face.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp -o CMakeFiles/interactive_face_detection_demo.dir/face.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/face.cpp -o CMakeFiles/interactive_face_detection_demo.dir/face.cpp.s
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/face.cpp.o.requires:
 
@@ -107,16 +107,16 @@ interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/f
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o: interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/flags.make
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interactive_face_detection_demo.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp > CMakeFiles/interactive_face_detection_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp > CMakeFiles/interactive_face_detection_demo.dir/main.cpp.i
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interactive_face_detection_demo.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp -o CMakeFiles/interactive_face_detection_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/main.cpp -o CMakeFiles/interactive_face_detection_demo.dir/main.cpp.s
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/main.cpp.o.requires:
 
@@ -131,16 +131,16 @@ interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/m
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o: interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/flags.make
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o: /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o -c /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp > CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp > CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.i
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp -o CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo/visualizer.cpp -o CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.s
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/visualizer.cpp.o.requires:
 
@@ -178,8 +178,8 @@ intel64/Release/interactive_face_detection_demo: /opt/intel/openvino_2019.3.334/
 intel64/Release/interactive_face_detection_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_imgproc.so.4.1.2
 intel64/Release/interactive_face_detection_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_core.so.4.1.2
 intel64/Release/interactive_face_detection_demo: interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../intel64/Release/interactive_face_detection_demo"
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interactive_face_detection_demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable ../intel64/Release/interactive_face_detection_demo"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/interactive_face_detection_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/build: intel64/Release/interactive_face_detection_demo
@@ -194,10 +194,10 @@ interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/r
 .PHONY : interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/requires
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo && $(CMAKE_COMMAND) -P CMakeFiles/interactive_face_detection_demo.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo && $(CMAKE_COMMAND) -P CMakeFiles/interactive_face_detection_demo.dir/cmake_clean.cmake
 .PHONY : interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/clean
 
 interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo /home/jakobtroidl/Desktop/face_testBuild/interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/interactive_face_detection_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : interactive_face_detection_demo/CMakeFiles/interactive_face_detection_demo.dir/depend
 

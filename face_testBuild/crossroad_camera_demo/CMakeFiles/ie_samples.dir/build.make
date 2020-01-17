@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Utility rule file for ie_samples.
 
@@ -63,10 +63,10 @@ crossroad_camera_demo/CMakeFiles/ie_samples.dir/build: ie_samples
 .PHONY : crossroad_camera_demo/CMakeFiles/ie_samples.dir/build
 
 crossroad_camera_demo/CMakeFiles/ie_samples.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/crossroad_camera_demo && $(CMAKE_COMMAND) -P CMakeFiles/ie_samples.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/crossroad_camera_demo && $(CMAKE_COMMAND) -P CMakeFiles/ie_samples.dir/cmake_clean.cmake
 .PHONY : crossroad_camera_demo/CMakeFiles/ie_samples.dir/clean
 
 crossroad_camera_demo/CMakeFiles/ie_samples.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/crossroad_camera_demo /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/crossroad_camera_demo /home/jakobtroidl/Desktop/face_testBuild/crossroad_camera_demo/CMakeFiles/ie_samples.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/crossroad_camera_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/crossroad_camera_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/crossroad_camera_demo/CMakeFiles/ie_samples.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crossroad_camera_demo/CMakeFiles/ie_samples.dir/depend
 

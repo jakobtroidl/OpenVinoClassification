@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ list_install_components/fast: list_install_components
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/crossroad_camera_demo/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/crossroad_camera_demo/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule
 .PHONY : crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ie_samples: crossroad_camera_demo/CMakeFiles/ie_samples.dir/rule
 
 # fast build rule for target.
 ie_samples/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/ie_samples.dir/build.make crossroad_camera_demo/CMakeFiles/ie_samples.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/ie_samples.dir/build.make crossroad_camera_demo/CMakeFiles/ie_samples.dir/build
 .PHONY : ie_samples/fast
 
 # Convenience name for target.
 crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/rule
 .PHONY : crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ crossroad_camera_demo: crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.di
 
 # fast build rule for target.
 crossroad_camera_demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build
 .PHONY : crossroad_camera_demo/fast
 
 main.o: main.cpp.o
@@ -192,7 +192,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -201,7 +201,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -210,7 +210,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/build.make crossroad_camera_demo/CMakeFiles/crossroad_camera_demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -241,6 +241,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

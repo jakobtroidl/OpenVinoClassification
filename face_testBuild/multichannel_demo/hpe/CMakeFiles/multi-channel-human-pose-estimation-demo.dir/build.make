@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/depend.make
@@ -59,16 +59,16 @@ include multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-dem
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/flags.make
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.i
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/human_pose.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.s
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/human_pose.cpp.o.requires:
 
@@ -83,16 +83,16 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/hu
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/flags.make
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.i
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/main.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.s
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/main.cpp.o.requires:
 
@@ -107,16 +107,16 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/ma
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/flags.make
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.i
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/peak.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.s
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/peak.cpp.o.requires:
 
@@ -131,16 +131,16 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/pe
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/flags.make
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.i
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocess.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.s
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocess.cpp.o.requires:
 
@@ -155,16 +155,16 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/po
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/flags.make
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.i
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/postprocessor.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.s
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/postprocessor.cpp.o.requires:
 
@@ -179,16 +179,16 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/po
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/flags.make
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp > CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.i
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe/render_human_pose.cpp -o CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.s
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/render_human_pose.cpp.o.requires:
 
@@ -232,8 +232,8 @@ intel64/Release/multi-channel-human-pose-estimation-demo: /opt/intel/openvino_20
 intel64/Release/multi-channel-human-pose-estimation-demo: /opt/intel/openvino_2019.3.334/deployment_tools/inference_engine/lib/intel64/libinference_engine.so
 intel64/Release/multi-channel-human-pose-estimation-demo: /opt/intel/openvino_2019.3.334/deployment_tools/inference_engine/external/tbb/lib/libtbb.so
 intel64/Release/multi-channel-human-pose-estimation-demo: multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../intel64/Release/multi-channel-human-pose-estimation-demo"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi-channel-human-pose-estimation-demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../intel64/Release/multi-channel-human-pose-estimation-demo"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi-channel-human-pose-estimation-demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/build: intel64/Release/multi-channel-human-pose-estimation-demo
@@ -250,10 +250,10 @@ multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/re
 .PHONY : multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/requires
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe && $(CMAKE_COMMAND) -P CMakeFiles/multi-channel-human-pose-estimation-demo.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe && $(CMAKE_COMMAND) -P CMakeFiles/multi-channel-human-pose-estimation-demo.dir/cmake_clean.cmake
 .PHONY : multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/clean
 
 multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/multichannel_demo/hpe /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : multichannel_demo/hpe/CMakeFiles/multi-channel-human-pose-estimation-demo.dir/depend
 

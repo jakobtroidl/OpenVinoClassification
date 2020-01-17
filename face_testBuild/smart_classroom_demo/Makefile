@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/smart_classroom_demo/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/smart_classroom_demo/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/rule
 .PHONY : smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ smart_classroom_demo: smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/r
 
 # fast build rule for target.
 smart_classroom_demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build
 .PHONY : smart_classroom_demo/fast
 
 main.o: main.cpp.o
@@ -177,7 +177,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -186,7 +186,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -195,7 +195,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/action_detector.o: src/action_detector.cpp.o
@@ -204,7 +204,7 @@ src/action_detector.o: src/action_detector.cpp.o
 
 # target to build an object file
 src/action_detector.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.o
 .PHONY : src/action_detector.cpp.o
 
 src/action_detector.i: src/action_detector.cpp.i
@@ -213,7 +213,7 @@ src/action_detector.i: src/action_detector.cpp.i
 
 # target to preprocess a source file
 src/action_detector.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.i
 .PHONY : src/action_detector.cpp.i
 
 src/action_detector.s: src/action_detector.cpp.s
@@ -222,7 +222,7 @@ src/action_detector.s: src/action_detector.cpp.s
 
 # target to generate assembly for a file
 src/action_detector.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/action_detector.cpp.s
 .PHONY : src/action_detector.cpp.s
 
 src/align_transform.o: src/align_transform.cpp.o
@@ -231,7 +231,7 @@ src/align_transform.o: src/align_transform.cpp.o
 
 # target to build an object file
 src/align_transform.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.o
 .PHONY : src/align_transform.cpp.o
 
 src/align_transform.i: src/align_transform.cpp.i
@@ -240,7 +240,7 @@ src/align_transform.i: src/align_transform.cpp.i
 
 # target to preprocess a source file
 src/align_transform.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.i
 .PHONY : src/align_transform.cpp.i
 
 src/align_transform.s: src/align_transform.cpp.s
@@ -249,7 +249,7 @@ src/align_transform.s: src/align_transform.cpp.s
 
 # target to generate assembly for a file
 src/align_transform.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/align_transform.cpp.s
 .PHONY : src/align_transform.cpp.s
 
 src/cnn.o: src/cnn.cpp.o
@@ -258,7 +258,7 @@ src/cnn.o: src/cnn.cpp.o
 
 # target to build an object file
 src/cnn.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.o
 .PHONY : src/cnn.cpp.o
 
 src/cnn.i: src/cnn.cpp.i
@@ -267,7 +267,7 @@ src/cnn.i: src/cnn.cpp.i
 
 # target to preprocess a source file
 src/cnn.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.i
 .PHONY : src/cnn.cpp.i
 
 src/cnn.s: src/cnn.cpp.s
@@ -276,7 +276,7 @@ src/cnn.s: src/cnn.cpp.s
 
 # target to generate assembly for a file
 src/cnn.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/cnn.cpp.s
 .PHONY : src/cnn.cpp.s
 
 src/detector.o: src/detector.cpp.o
@@ -285,7 +285,7 @@ src/detector.o: src/detector.cpp.o
 
 # target to build an object file
 src/detector.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.o
 .PHONY : src/detector.cpp.o
 
 src/detector.i: src/detector.cpp.i
@@ -294,7 +294,7 @@ src/detector.i: src/detector.cpp.i
 
 # target to preprocess a source file
 src/detector.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.i
 .PHONY : src/detector.cpp.i
 
 src/detector.s: src/detector.cpp.s
@@ -303,7 +303,7 @@ src/detector.s: src/detector.cpp.s
 
 # target to generate assembly for a file
 src/detector.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/detector.cpp.s
 .PHONY : src/detector.cpp.s
 
 src/image_grabber.o: src/image_grabber.cpp.o
@@ -312,7 +312,7 @@ src/image_grabber.o: src/image_grabber.cpp.o
 
 # target to build an object file
 src/image_grabber.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.o
 .PHONY : src/image_grabber.cpp.o
 
 src/image_grabber.i: src/image_grabber.cpp.i
@@ -321,7 +321,7 @@ src/image_grabber.i: src/image_grabber.cpp.i
 
 # target to preprocess a source file
 src/image_grabber.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.i
 .PHONY : src/image_grabber.cpp.i
 
 src/image_grabber.s: src/image_grabber.cpp.s
@@ -330,7 +330,7 @@ src/image_grabber.s: src/image_grabber.cpp.s
 
 # target to generate assembly for a file
 src/image_grabber.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/image_grabber.cpp.s
 .PHONY : src/image_grabber.cpp.s
 
 src/logger.o: src/logger.cpp.o
@@ -339,7 +339,7 @@ src/logger.o: src/logger.cpp.o
 
 # target to build an object file
 src/logger.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.o
 .PHONY : src/logger.cpp.o
 
 src/logger.i: src/logger.cpp.i
@@ -348,7 +348,7 @@ src/logger.i: src/logger.cpp.i
 
 # target to preprocess a source file
 src/logger.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.i
 .PHONY : src/logger.cpp.i
 
 src/logger.s: src/logger.cpp.s
@@ -357,7 +357,7 @@ src/logger.s: src/logger.cpp.s
 
 # target to generate assembly for a file
 src/logger.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/logger.cpp.s
 .PHONY : src/logger.cpp.s
 
 src/reid_gallery.o: src/reid_gallery.cpp.o
@@ -366,7 +366,7 @@ src/reid_gallery.o: src/reid_gallery.cpp.o
 
 # target to build an object file
 src/reid_gallery.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.o
 .PHONY : src/reid_gallery.cpp.o
 
 src/reid_gallery.i: src/reid_gallery.cpp.i
@@ -375,7 +375,7 @@ src/reid_gallery.i: src/reid_gallery.cpp.i
 
 # target to preprocess a source file
 src/reid_gallery.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.i
 .PHONY : src/reid_gallery.cpp.i
 
 src/reid_gallery.s: src/reid_gallery.cpp.s
@@ -384,7 +384,7 @@ src/reid_gallery.s: src/reid_gallery.cpp.s
 
 # target to generate assembly for a file
 src/reid_gallery.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/reid_gallery.cpp.s
 .PHONY : src/reid_gallery.cpp.s
 
 src/tracker.o: src/tracker.cpp.o
@@ -393,7 +393,7 @@ src/tracker.o: src/tracker.cpp.o
 
 # target to build an object file
 src/tracker.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.o
 .PHONY : src/tracker.cpp.o
 
 src/tracker.i: src/tracker.cpp.i
@@ -402,7 +402,7 @@ src/tracker.i: src/tracker.cpp.i
 
 # target to preprocess a source file
 src/tracker.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.i
 .PHONY : src/tracker.cpp.i
 
 src/tracker.s: src/tracker.cpp.s
@@ -411,7 +411,7 @@ src/tracker.s: src/tracker.cpp.s
 
 # target to generate assembly for a file
 src/tracker.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/build.make smart_classroom_demo/CMakeFiles/smart_classroom_demo.dir/src/tracker.cpp.s
 .PHONY : src/tracker.cpp.s
 
 # Help Target
@@ -465,6 +465,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

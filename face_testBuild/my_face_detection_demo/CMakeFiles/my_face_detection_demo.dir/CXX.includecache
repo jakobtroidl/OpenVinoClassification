@@ -177,8 +177,6 @@ functional
 -
 iostream
 -
-fstream
--
 random
 -
 memory
@@ -204,6 +202,16 @@ set
 iostream
 -
 fstream
+-
+sstream
+-
+iomanip
+-
+sys/stat.h
+-
+glob.h
+-
+dirent.h
 -
 inference_engine.hpp
 -

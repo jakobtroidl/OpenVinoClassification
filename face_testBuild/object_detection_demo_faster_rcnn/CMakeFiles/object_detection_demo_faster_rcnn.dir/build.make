@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/depend.make
@@ -59,16 +59,16 @@ include object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faste
 
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o: object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/flags.make
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp
 
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp > CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp > CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.i
 
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp -o CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn/main.cpp -o CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.s
 
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/main.cpp.o.requires:
 
@@ -96,8 +96,8 @@ intel64/Release/object_detection_demo_faster_rcnn: intel64/Release/lib/libformat
 intel64/Release/object_detection_demo_faster_rcnn: intel64/Release/lib/libgflags_nothreads.a
 intel64/Release/object_detection_demo_faster_rcnn: /opt/intel/openvino_2019.3.334/deployment_tools/inference_engine/external/tbb/lib/libtbb.so
 intel64/Release/object_detection_demo_faster_rcnn: object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../intel64/Release/object_detection_demo_faster_rcnn"
-	cd /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/object_detection_demo_faster_rcnn.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../intel64/Release/object_detection_demo_faster_rcnn"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/object_detection_demo_faster_rcnn.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/build: intel64/Release/object_detection_demo_faster_rcnn
@@ -109,10 +109,10 @@ object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.d
 .PHONY : object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/requires
 
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn && $(CMAKE_COMMAND) -P CMakeFiles/object_detection_demo_faster_rcnn.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn && $(CMAKE_COMMAND) -P CMakeFiles/object_detection_demo_faster_rcnn.dir/cmake_clean.cmake
 .PHONY : object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/clean
 
 object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn /home/jakobtroidl/Desktop/face_testBuild/object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/object_detection_demo_faster_rcnn /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : object_detection_demo_faster_rcnn/CMakeFiles/object_detection_demo_faster_rcnn.dir/depend
 

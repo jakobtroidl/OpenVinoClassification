@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/depend.make
@@ -59,16 +59,16 @@ include multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/fl
 
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o: multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/flags.make
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp
 
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp > CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp > CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.i
 
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp -o CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd/main.cpp -o CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.s
 
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/main.cpp.o.requires:
 
@@ -102,8 +102,8 @@ intel64/Release/multi-channel-face-detection-demo: /opt/intel/openvino_2019.3.33
 intel64/Release/multi-channel-face-detection-demo: /opt/intel/openvino_2019.3.334/deployment_tools/inference_engine/lib/intel64/libinference_engine.so
 intel64/Release/multi-channel-face-detection-demo: /opt/intel/openvino_2019.3.334/deployment_tools/inference_engine/external/tbb/lib/libtbb.so
 intel64/Release/multi-channel-face-detection-demo: multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../intel64/Release/multi-channel-face-detection-demo"
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi-channel-face-detection-demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../../intel64/Release/multi-channel-face-detection-demo"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/multi-channel-face-detection-demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/build: intel64/Release/multi-channel-face-detection-demo
@@ -115,10 +115,10 @@ multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/requires: 
 .PHONY : multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/requires
 
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd && $(CMAKE_COMMAND) -P CMakeFiles/multi-channel-face-detection-demo.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd && $(CMAKE_COMMAND) -P CMakeFiles/multi-channel-face-detection-demo.dir/cmake_clean.cmake
 .PHONY : multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/clean
 
 multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/multichannel_demo/fd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : multichannel_demo/fd/CMakeFiles/multi-channel-face-detection-demo.dir/depend
 

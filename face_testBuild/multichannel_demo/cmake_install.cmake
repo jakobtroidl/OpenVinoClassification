@@ -39,9 +39,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/common/cmake_install.cmake")
-  include("/home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/fd/cmake_install.cmake")
-  include("/home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/hpe/cmake_install.cmake")
+  include("/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/common/cmake_install.cmake")
+  include("/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/fd/cmake_install.cmake")
+  include("/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/hpe/cmake_install.cmake")
 
 endif()
 

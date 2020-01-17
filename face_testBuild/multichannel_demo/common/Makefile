@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/multichannel_demo/common/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/multichannel_demo/common/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 multichannel_demo/common/CMakeFiles/common.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/CMakeFiles/common.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 multichannel_demo/common/CMakeFiles/common.dir/rule
 .PHONY : multichannel_demo/common/CMakeFiles/common.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ common: multichannel_demo/common/CMakeFiles/common.dir/rule
 
 # fast build rule for target.
 common/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/build
 .PHONY : common/fast
 
 decoder.o: decoder.cpp.o
@@ -177,7 +177,7 @@ decoder.o: decoder.cpp.o
 
 # target to build an object file
 decoder.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/decoder.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/decoder.cpp.o
 .PHONY : decoder.cpp.o
 
 decoder.i: decoder.cpp.i
@@ -186,7 +186,7 @@ decoder.i: decoder.cpp.i
 
 # target to preprocess a source file
 decoder.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/decoder.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/decoder.cpp.i
 .PHONY : decoder.cpp.i
 
 decoder.s: decoder.cpp.s
@@ -195,7 +195,7 @@ decoder.s: decoder.cpp.s
 
 # target to generate assembly for a file
 decoder.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/decoder.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/decoder.cpp.s
 .PHONY : decoder.cpp.s
 
 graph.o: graph.cpp.o
@@ -204,7 +204,7 @@ graph.o: graph.cpp.o
 
 # target to build an object file
 graph.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/graph.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/graph.cpp.o
 .PHONY : graph.cpp.o
 
 graph.i: graph.cpp.i
@@ -213,7 +213,7 @@ graph.i: graph.cpp.i
 
 # target to preprocess a source file
 graph.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/graph.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/graph.cpp.i
 .PHONY : graph.cpp.i
 
 graph.s: graph.cpp.s
@@ -222,7 +222,7 @@ graph.s: graph.cpp.s
 
 # target to generate assembly for a file
 graph.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/graph.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/graph.cpp.s
 .PHONY : graph.cpp.s
 
 input.o: input.cpp.o
@@ -231,7 +231,7 @@ input.o: input.cpp.o
 
 # target to build an object file
 input.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/input.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/input.cpp.o
 .PHONY : input.cpp.o
 
 input.i: input.cpp.i
@@ -240,7 +240,7 @@ input.i: input.cpp.i
 
 # target to preprocess a source file
 input.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/input.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/input.cpp.i
 .PHONY : input.cpp.i
 
 input.s: input.cpp.s
@@ -249,7 +249,7 @@ input.s: input.cpp.s
 
 # target to generate assembly for a file
 input.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/input.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/input.cpp.s
 .PHONY : input.cpp.s
 
 output.o: output.cpp.o
@@ -258,7 +258,7 @@ output.o: output.cpp.o
 
 # target to build an object file
 output.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/output.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/output.cpp.o
 .PHONY : output.cpp.o
 
 output.i: output.cpp.i
@@ -267,7 +267,7 @@ output.i: output.cpp.i
 
 # target to preprocess a source file
 output.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/output.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/output.cpp.i
 .PHONY : output.cpp.i
 
 output.s: output.cpp.s
@@ -276,7 +276,7 @@ output.s: output.cpp.s
 
 # target to generate assembly for a file
 output.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/output.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/output.cpp.s
 .PHONY : output.cpp.s
 
 perf_timer.o: perf_timer.cpp.o
@@ -285,7 +285,7 @@ perf_timer.o: perf_timer.cpp.o
 
 # target to build an object file
 perf_timer.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/perf_timer.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/perf_timer.cpp.o
 .PHONY : perf_timer.cpp.o
 
 perf_timer.i: perf_timer.cpp.i
@@ -294,7 +294,7 @@ perf_timer.i: perf_timer.cpp.i
 
 # target to preprocess a source file
 perf_timer.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/perf_timer.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/perf_timer.cpp.i
 .PHONY : perf_timer.cpp.i
 
 perf_timer.s: perf_timer.cpp.s
@@ -303,7 +303,7 @@ perf_timer.s: perf_timer.cpp.s
 
 # target to generate assembly for a file
 perf_timer.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/perf_timer.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/perf_timer.cpp.s
 .PHONY : perf_timer.cpp.s
 
 threading.o: threading.cpp.o
@@ -312,7 +312,7 @@ threading.o: threading.cpp.o
 
 # target to build an object file
 threading.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/threading.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/threading.cpp.o
 .PHONY : threading.cpp.o
 
 threading.i: threading.cpp.i
@@ -321,7 +321,7 @@ threading.i: threading.cpp.i
 
 # target to preprocess a source file
 threading.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/threading.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/threading.cpp.i
 .PHONY : threading.cpp.i
 
 threading.s: threading.cpp.s
@@ -330,7 +330,7 @@ threading.s: threading.cpp.s
 
 # target to generate assembly for a file
 threading.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/threading.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f multichannel_demo/common/CMakeFiles/common.dir/build.make multichannel_demo/common/CMakeFiles/common.dir/threading.cpp.s
 .PHONY : threading.cpp.s
 
 # Help Target
@@ -375,6 +375,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp" "/home/jakobtroidl/Desktop/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o"
-  "/opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp" "/home/jakobtroidl/Desktop/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o"
-  "/opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp" "/home/jakobtroidl/Desktop/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o"
-  "/opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp" "/home/jakobtroidl/Desktop/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o"
+  "/opt/intel/openvino/inference_engine/demos/common/format_reader/MnistUbyte.cpp" "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/MnistUbyte.cpp.o"
+  "/opt/intel/openvino/inference_engine/demos/common/format_reader/bmp.cpp" "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/bmp.cpp.o"
+  "/opt/intel/openvino/inference_engine/demos/common/format_reader/format_reader.cpp" "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/format_reader.cpp.o"
+  "/opt/intel/openvino/inference_engine/demos/common/format_reader/opencv_wraper.cpp" "/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/common/format_reader/CMakeFiles/format_reader.dir/opencv_wraper.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/depend.make
@@ -59,16 +59,16 @@ include thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/flags.make
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/flags.make
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o: /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o -c /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o -c /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o.requires:
 
@@ -83,16 +83,16 @@ thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o.provide
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/flags.make
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o: /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o -c /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o -c /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_reporting.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o.requires:
 
@@ -107,16 +107,16 @@ thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/flags.make
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o: /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o -c /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o -c /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc > CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/thirdparty/gflags/src/gflags_completions.cc -o CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o.requires:
 
@@ -143,9 +143,9 @@ intel64/Release/lib/libgflags_nothreads.a: thirdparty/gflags/CMakeFiles/gflags_n
 intel64/Release/lib/libgflags_nothreads.a: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o
 intel64/Release/lib/libgflags_nothreads.a: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make
 intel64/Release/lib/libgflags_nothreads.a: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../intel64/Release/lib/libgflags_nothreads.a"
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && $(CMAKE_COMMAND) -P CMakeFiles/gflags_nothreads_static.dir/cmake_clean_target.cmake
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gflags_nothreads_static.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library ../../intel64/Release/lib/libgflags_nothreads.a"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && $(CMAKE_COMMAND) -P CMakeFiles/gflags_nothreads_static.dir/cmake_clean_target.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/gflags_nothreads_static.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build: intel64/Release/lib/libgflags_nothreads.a
@@ -159,10 +159,10 @@ thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/requires: thirdparty/gf
 .PHONY : thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/requires
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags && $(CMAKE_COMMAND) -P CMakeFiles/gflags_nothreads_static.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags && $(CMAKE_COMMAND) -P CMakeFiles/gflags_nothreads_static.dir/cmake_clean.cmake
 .PHONY : thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/clean
 
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/thirdparty/gflags /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/thirdparty/gflags /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/depend
 

@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/depend.make
@@ -59,16 +59,16 @@ include security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir
 
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o: security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/flags.make
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp
 
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/security_barrier_camera_demo.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp > CMakeFiles/security_barrier_camera_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp > CMakeFiles/security_barrier_camera_demo.dir/main.cpp.i
 
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/security_barrier_camera_demo.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp -o CMakeFiles/security_barrier_camera_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo/main.cpp -o CMakeFiles/security_barrier_camera_demo.dir/main.cpp.s
 
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/main.cpp.o.requires:
 
@@ -100,8 +100,8 @@ intel64/Release/security_barrier_camera_demo: /opt/intel/openvino_2019.3.334/ope
 intel64/Release/security_barrier_camera_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_imgproc.so.4.1.2
 intel64/Release/security_barrier_camera_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_core.so.4.1.2
 intel64/Release/security_barrier_camera_demo: security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../intel64/Release/security_barrier_camera_demo"
-	cd /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/security_barrier_camera_demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ../intel64/Release/security_barrier_camera_demo"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/security_barrier_camera_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/build: intel64/Release/security_barrier_camera_demo
@@ -113,10 +113,10 @@ security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/require
 .PHONY : security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/requires
 
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo && $(CMAKE_COMMAND) -P CMakeFiles/security_barrier_camera_demo.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo && $(CMAKE_COMMAND) -P CMakeFiles/security_barrier_camera_demo.dir/cmake_clean.cmake
 .PHONY : security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/clean
 
 security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo /home/jakobtroidl/Desktop/face_testBuild/security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/security_barrier_camera_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : security_barrier_camera_demo/CMakeFiles/security_barrier_camera_demo.dir/depend
 

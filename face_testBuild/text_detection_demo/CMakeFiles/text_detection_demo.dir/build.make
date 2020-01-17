@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 # Include any dependencies generated for this target.
 include text_detection_demo/CMakeFiles/text_detection_demo.dir/depend.make
@@ -59,16 +59,16 @@ include text_detection_demo/CMakeFiles/text_detection_demo.dir/flags.make
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o: text_detection_demo/CMakeFiles/text_detection_demo.dir/flags.make
 text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o: /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/main.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_detection_demo.dir/main.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp > CMakeFiles/text_detection_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp > CMakeFiles/text_detection_demo.dir/main.cpp.i
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_detection_demo.dir/main.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp -o CMakeFiles/text_detection_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/main.cpp -o CMakeFiles/text_detection_demo.dir/main.cpp.s
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o.requires:
 
@@ -83,16 +83,16 @@ text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o.provides.build
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o: text_detection_demo/CMakeFiles/text_detection_demo.dir/flags.make
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o: /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_detection_demo.dir/src/cnn.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp > CMakeFiles/text_detection_demo.dir/src/cnn.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp > CMakeFiles/text_detection_demo.dir/src/cnn.cpp.i
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_detection_demo.dir/src/cnn.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp -o CMakeFiles/text_detection_demo.dir/src/cnn.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/cnn.cpp -o CMakeFiles/text_detection_demo.dir/src/cnn.cpp.s
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o.requires:
 
@@ -107,16 +107,16 @@ text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o.provides.bu
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o: text_detection_demo/CMakeFiles/text_detection_demo.dir/flags.make
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o: /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp > CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp > CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.i
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp -o CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/image_grabber.cpp -o CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.s
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o.requires:
 
@@ -131,16 +131,16 @@ text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o.p
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o: text_detection_demo/CMakeFiles/text_detection_demo.dir/flags.make
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o: /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp > CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp > CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.i
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp -o CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_detection.cpp -o CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.s
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o.requires:
 
@@ -155,16 +155,16 @@ text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o.
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o: text_detection_demo/CMakeFiles/text_detection_demo.dir/flags.make
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o: /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o -c /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.i"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp > CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp > CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.i
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.s"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp -o CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /opt/intel/openvino/inference_engine/demos/text_detection_demo/src/text_recognition.cpp -o CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.s
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o.requires:
 
@@ -204,8 +204,8 @@ intel64/Release/text_detection_demo: /opt/intel/openvino_2019.3.334/opencv/lib/l
 intel64/Release/text_detection_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_imgproc.so.4.1.2
 intel64/Release/text_detection_demo: /opt/intel/openvino_2019.3.334/opencv/lib/libopencv_core.so.4.1.2
 intel64/Release/text_detection_demo: text_detection_demo/CMakeFiles/text_detection_demo.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../intel64/Release/text_detection_demo"
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/text_detection_demo.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../intel64/Release/text_detection_demo"
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/text_detection_demo.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 text_detection_demo/CMakeFiles/text_detection_demo.dir/build: intel64/Release/text_detection_demo
@@ -221,10 +221,10 @@ text_detection_demo/CMakeFiles/text_detection_demo.dir/requires: text_detection_
 .PHONY : text_detection_demo/CMakeFiles/text_detection_demo.dir/requires
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo && $(CMAKE_COMMAND) -P CMakeFiles/text_detection_demo.dir/cmake_clean.cmake
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo && $(CMAKE_COMMAND) -P CMakeFiles/text_detection_demo.dir/cmake_clean.cmake
 .PHONY : text_detection_demo/CMakeFiles/text_detection_demo.dir/clean
 
 text_detection_demo/CMakeFiles/text_detection_demo.dir/depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/text_detection_demo /home/jakobtroidl/Desktop/face_testBuild /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo/CMakeFiles/text_detection_demo.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /opt/intel/openvino/inference_engine/demos /opt/intel/openvino/inference_engine/demos/text_detection_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo/CMakeFiles/text_detection_demo.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : text_detection_demo/CMakeFiles/text_detection_demo.dir/depend
 

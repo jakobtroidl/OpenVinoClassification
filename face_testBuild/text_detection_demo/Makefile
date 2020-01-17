@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/text_detection_demo/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/text_detection_demo/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 text_detection_demo/CMakeFiles/text_detection_demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/CMakeFiles/text_detection_demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 text_detection_demo/CMakeFiles/text_detection_demo.dir/rule
 .PHONY : text_detection_demo/CMakeFiles/text_detection_demo.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ text_detection_demo: text_detection_demo/CMakeFiles/text_detection_demo.dir/rule
 
 # fast build rule for target.
 text_detection_demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/build
 .PHONY : text_detection_demo/fast
 
 main.o: main.cpp.o
@@ -177,7 +177,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -186,7 +186,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -195,7 +195,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/cnn.o: src/cnn.cpp.o
@@ -204,7 +204,7 @@ src/cnn.o: src/cnn.cpp.o
 
 # target to build an object file
 src/cnn.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.o
 .PHONY : src/cnn.cpp.o
 
 src/cnn.i: src/cnn.cpp.i
@@ -213,7 +213,7 @@ src/cnn.i: src/cnn.cpp.i
 
 # target to preprocess a source file
 src/cnn.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.i
 .PHONY : src/cnn.cpp.i
 
 src/cnn.s: src/cnn.cpp.s
@@ -222,7 +222,7 @@ src/cnn.s: src/cnn.cpp.s
 
 # target to generate assembly for a file
 src/cnn.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/cnn.cpp.s
 .PHONY : src/cnn.cpp.s
 
 src/image_grabber.o: src/image_grabber.cpp.o
@@ -231,7 +231,7 @@ src/image_grabber.o: src/image_grabber.cpp.o
 
 # target to build an object file
 src/image_grabber.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.o
 .PHONY : src/image_grabber.cpp.o
 
 src/image_grabber.i: src/image_grabber.cpp.i
@@ -240,7 +240,7 @@ src/image_grabber.i: src/image_grabber.cpp.i
 
 # target to preprocess a source file
 src/image_grabber.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.i
 .PHONY : src/image_grabber.cpp.i
 
 src/image_grabber.s: src/image_grabber.cpp.s
@@ -249,7 +249,7 @@ src/image_grabber.s: src/image_grabber.cpp.s
 
 # target to generate assembly for a file
 src/image_grabber.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/image_grabber.cpp.s
 .PHONY : src/image_grabber.cpp.s
 
 src/text_detection.o: src/text_detection.cpp.o
@@ -258,7 +258,7 @@ src/text_detection.o: src/text_detection.cpp.o
 
 # target to build an object file
 src/text_detection.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.o
 .PHONY : src/text_detection.cpp.o
 
 src/text_detection.i: src/text_detection.cpp.i
@@ -267,7 +267,7 @@ src/text_detection.i: src/text_detection.cpp.i
 
 # target to preprocess a source file
 src/text_detection.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.i
 .PHONY : src/text_detection.cpp.i
 
 src/text_detection.s: src/text_detection.cpp.s
@@ -276,7 +276,7 @@ src/text_detection.s: src/text_detection.cpp.s
 
 # target to generate assembly for a file
 src/text_detection.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_detection.cpp.s
 .PHONY : src/text_detection.cpp.s
 
 src/text_recognition.o: src/text_recognition.cpp.o
@@ -285,7 +285,7 @@ src/text_recognition.o: src/text_recognition.cpp.o
 
 # target to build an object file
 src/text_recognition.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.o
 .PHONY : src/text_recognition.cpp.o
 
 src/text_recognition.i: src/text_recognition.cpp.i
@@ -294,7 +294,7 @@ src/text_recognition.i: src/text_recognition.cpp.i
 
 # target to preprocess a source file
 src/text_recognition.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.i
 .PHONY : src/text_recognition.cpp.i
 
 src/text_recognition.s: src/text_recognition.cpp.s
@@ -303,7 +303,7 @@ src/text_recognition.s: src/text_recognition.cpp.s
 
 # target to generate assembly for a file
 src/text_recognition.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f text_detection_demo/CMakeFiles/text_detection_demo.dir/build.make text_detection_demo/CMakeFiles/text_detection_demo.dir/src/text_recognition.cpp.s
 .PHONY : src/text_recognition.cpp.s
 
 # Help Target
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

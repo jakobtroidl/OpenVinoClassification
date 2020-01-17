@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/thirdparty/gflags/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/thirdparty/gflags/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/rule
 .PHONY : thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ gflags_nothreads_static: thirdparty/gflags/CMakeFiles/gflags_nothreads_static.di
 
 # fast build rule for target.
 gflags_nothreads_static/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build
 .PHONY : gflags_nothreads_static/fast
 
 src/gflags.o: src/gflags.cc.o
@@ -177,7 +177,7 @@ src/gflags.o: src/gflags.cc.o
 
 # target to build an object file
 src/gflags.cc.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.o
 .PHONY : src/gflags.cc.o
 
 src/gflags.i: src/gflags.cc.i
@@ -186,7 +186,7 @@ src/gflags.i: src/gflags.cc.i
 
 # target to preprocess a source file
 src/gflags.cc.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.i
 .PHONY : src/gflags.cc.i
 
 src/gflags.s: src/gflags.cc.s
@@ -195,7 +195,7 @@ src/gflags.s: src/gflags.cc.s
 
 # target to generate assembly for a file
 src/gflags.cc.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags.cc.s
 .PHONY : src/gflags.cc.s
 
 src/gflags_completions.o: src/gflags_completions.cc.o
@@ -204,7 +204,7 @@ src/gflags_completions.o: src/gflags_completions.cc.o
 
 # target to build an object file
 src/gflags_completions.cc.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.o
 .PHONY : src/gflags_completions.cc.o
 
 src/gflags_completions.i: src/gflags_completions.cc.i
@@ -213,7 +213,7 @@ src/gflags_completions.i: src/gflags_completions.cc.i
 
 # target to preprocess a source file
 src/gflags_completions.cc.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.i
 .PHONY : src/gflags_completions.cc.i
 
 src/gflags_completions.s: src/gflags_completions.cc.s
@@ -222,7 +222,7 @@ src/gflags_completions.s: src/gflags_completions.cc.s
 
 # target to generate assembly for a file
 src/gflags_completions.cc.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_completions.cc.s
 .PHONY : src/gflags_completions.cc.s
 
 src/gflags_reporting.o: src/gflags_reporting.cc.o
@@ -231,7 +231,7 @@ src/gflags_reporting.o: src/gflags_reporting.cc.o
 
 # target to build an object file
 src/gflags_reporting.cc.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.o
 .PHONY : src/gflags_reporting.cc.o
 
 src/gflags_reporting.i: src/gflags_reporting.cc.i
@@ -240,7 +240,7 @@ src/gflags_reporting.i: src/gflags_reporting.cc.i
 
 # target to preprocess a source file
 src/gflags_reporting.cc.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.i
 .PHONY : src/gflags_reporting.cc.i
 
 src/gflags_reporting.s: src/gflags_reporting.cc.s
@@ -249,7 +249,7 @@ src/gflags_reporting.s: src/gflags_reporting.cc.s
 
 # target to generate assembly for a file
 src/gflags_reporting.cc.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/build.make thirdparty/gflags/CMakeFiles/gflags_nothreads_static.dir/src/gflags_reporting.cc.s
 .PHONY : src/gflags_reporting.cc.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

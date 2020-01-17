@@ -51,7 +51,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /opt/intel/openvino/inference_engine/demos
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/face_testBuild
+CMAKE_BINARY_DIR = /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/face_testBuild/human_pose_estimation_demo/CMakeFiles/progress.marks
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/face_testBuild/CMakeFiles 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/human_pose_estimation_demo/CMakeFiles/progress.marks
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/clean
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/preinstall
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/rule:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/rule
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f CMakeFiles/Makefile2 human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/rule
 .PHONY : human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/rule
 
 # Convenience name for target.
@@ -168,7 +168,7 @@ human_pose_estimation_demo: human_pose_estimation_demo/CMakeFiles/human_pose_est
 
 # fast build rule for target.
 human_pose_estimation_demo/fast:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build
 .PHONY : human_pose_estimation_demo/fast
 
 main.o: main.cpp.o
@@ -177,7 +177,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/main.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -186,7 +186,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/main.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -195,7 +195,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/main.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 src/human_pose.o: src/human_pose.cpp.o
@@ -204,7 +204,7 @@ src/human_pose.o: src/human_pose.cpp.o
 
 # target to build an object file
 src/human_pose.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose.cpp.o
 .PHONY : src/human_pose.cpp.o
 
 src/human_pose.i: src/human_pose.cpp.i
@@ -213,7 +213,7 @@ src/human_pose.i: src/human_pose.cpp.i
 
 # target to preprocess a source file
 src/human_pose.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose.cpp.i
 .PHONY : src/human_pose.cpp.i
 
 src/human_pose.s: src/human_pose.cpp.s
@@ -222,7 +222,7 @@ src/human_pose.s: src/human_pose.cpp.s
 
 # target to generate assembly for a file
 src/human_pose.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose.cpp.s
 .PHONY : src/human_pose.cpp.s
 
 src/human_pose_estimator.o: src/human_pose_estimator.cpp.o
@@ -231,7 +231,7 @@ src/human_pose_estimator.o: src/human_pose_estimator.cpp.o
 
 # target to build an object file
 src/human_pose_estimator.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose_estimator.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose_estimator.cpp.o
 .PHONY : src/human_pose_estimator.cpp.o
 
 src/human_pose_estimator.i: src/human_pose_estimator.cpp.i
@@ -240,7 +240,7 @@ src/human_pose_estimator.i: src/human_pose_estimator.cpp.i
 
 # target to preprocess a source file
 src/human_pose_estimator.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose_estimator.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose_estimator.cpp.i
 .PHONY : src/human_pose_estimator.cpp.i
 
 src/human_pose_estimator.s: src/human_pose_estimator.cpp.s
@@ -249,7 +249,7 @@ src/human_pose_estimator.s: src/human_pose_estimator.cpp.s
 
 # target to generate assembly for a file
 src/human_pose_estimator.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose_estimator.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/human_pose_estimator.cpp.s
 .PHONY : src/human_pose_estimator.cpp.s
 
 src/peak.o: src/peak.cpp.o
@@ -258,7 +258,7 @@ src/peak.o: src/peak.cpp.o
 
 # target to build an object file
 src/peak.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/peak.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/peak.cpp.o
 .PHONY : src/peak.cpp.o
 
 src/peak.i: src/peak.cpp.i
@@ -267,7 +267,7 @@ src/peak.i: src/peak.cpp.i
 
 # target to preprocess a source file
 src/peak.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/peak.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/peak.cpp.i
 .PHONY : src/peak.cpp.i
 
 src/peak.s: src/peak.cpp.s
@@ -276,7 +276,7 @@ src/peak.s: src/peak.cpp.s
 
 # target to generate assembly for a file
 src/peak.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/peak.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/peak.cpp.s
 .PHONY : src/peak.cpp.s
 
 src/render_human_pose.o: src/render_human_pose.cpp.o
@@ -285,7 +285,7 @@ src/render_human_pose.o: src/render_human_pose.cpp.o
 
 # target to build an object file
 src/render_human_pose.cpp.o:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/render_human_pose.cpp.o
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/render_human_pose.cpp.o
 .PHONY : src/render_human_pose.cpp.o
 
 src/render_human_pose.i: src/render_human_pose.cpp.i
@@ -294,7 +294,7 @@ src/render_human_pose.i: src/render_human_pose.cpp.i
 
 # target to preprocess a source file
 src/render_human_pose.cpp.i:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/render_human_pose.cpp.i
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/render_human_pose.cpp.i
 .PHONY : src/render_human_pose.cpp.i
 
 src/render_human_pose.s: src/render_human_pose.cpp.s
@@ -303,7 +303,7 @@ src/render_human_pose.s: src/render_human_pose.cpp.s
 
 # target to generate assembly for a file
 src/render_human_pose.cpp.s:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/render_human_pose.cpp.s
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(MAKE) -f human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/build.make human_pose_estimation_demo/CMakeFiles/human_pose_estimation_demo.dir/src/render_human_pose.cpp.s
 .PHONY : src/render_human_pose.cpp.s
 
 # Help Target
@@ -345,6 +345,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/jakobtroidl/Desktop/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/jakobtroidl/Desktop/OpenVINO_ClassificationService/face_testBuild && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
