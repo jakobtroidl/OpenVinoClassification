@@ -1,2 +1,2 @@
 frameIdx or filename, face_detected(bool), BB_upperLeftCorner.x, BB_upperLeftCorner.y, BB_height, BB_width, isFemale, age; 
-1, 1, 50, 49, 212, 212, 0, 24.6582;
+1, 1, 50, 49, 212, 212, 0, 24.707;
