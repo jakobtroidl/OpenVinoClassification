@@ -168,9 +168,9 @@ def intersection_over_union(box_1, box_2):
 
 def main():
     args = build_argparser().parse_args()
-    result_path = "./results/filesYolo/"
+    result_path = "../results/filesYolo/"
 
-    result_file = open("./results/" + "yolo_results.csv", "w+")
+    result_file = open("../results/" + "yolo_results.csv", "w+")
     result_file.write("frame_id, class_id, confidence, xmin, ymin, xmax, ymax; \n")
 
     model_xml = args.model
