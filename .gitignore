@@ -1,8 +1,8 @@
 
 *.jpg
+*.mp4
+*.avi
 
 face_testBuild/
 
 models/
-
-results/filesFaceDetection/

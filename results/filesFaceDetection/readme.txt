@@ -1,0 +1,1 @@
+in this folder all results of the intel pretrained face detection model will be safed

@@ -1,0 +1,1 @@
+in this folder all results of yolo v3 model will be safed
