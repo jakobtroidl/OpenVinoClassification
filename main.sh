@@ -10,7 +10,7 @@ cd source_pkg/
 
 yolo_model=../models/yolo_v3/frozen_darknet_yolov3_model.xml
 yolo_labels=../models/yolo_v3/coco.names
-yolo_cpu_extension = /opt/intel/openvino/deployment_tools/inference_engine/lib/intel64/libcpu_extension_avx2.so
+yolo_cpu_extension=/opt/intel/openvino/deployment_tools/inference_engine/lib/intel64/libcpu_extension_avx2.so
 
 face_model=../models/facedetection/FP16/face-detection-retail-0004.xml
 age_gender_model=../models/gender_age/FP16/age-gender-recognition-retail-0013.xml
