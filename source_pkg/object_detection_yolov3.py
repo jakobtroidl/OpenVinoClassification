@@ -320,8 +320,8 @@ def main():
             for layer_name, out_blob in output.items():
                 out_blob = out_blob.reshape(net.layers[net.layers[layer_name].parents[0]].shape)
                 layer_params = YoloParams(net.layers[layer_name].params, out_blob.shape[2])
-                log.info("Layer {} parameters: ".format(layer_name))
-                layer_params.log_params()
+                # log.info("Layer {} parameters: ".format(layer_name))
+                # layer_params.log_params()
                 objects += parse_yolo_region(out_blob, in_frame.shape[2:],
                                              frame.shape[:-1], layer_params,
                                              args.prob_threshold)
@@ -339,9 +339,9 @@ def main():
         # Drawing objects with respect to the --prob_threshold CLI parameter
         objects = [obj for obj in objects if obj['confidence'] >= args.prob_threshold]
 
-        if len(objects) and args.raw_output_message:
-            log.info("\nDetected boxes for batch {}:".format(1))
-            log.info(" Class ID | Confidence | XMIN | YMIN | XMAX | YMAX | COLOR ")
+        # if len(objects) and args.raw_output_message:
+            # log.info("\nDetected boxes for batch {}:".format(1))
+            # log.info(" Class ID | Confidence | XMIN | YMIN | XMAX | YMAX | COLOR ")
 
         origin_im_size = frame.shape[:-1]
 
@@ -354,7 +354,7 @@ def main():
 
         if len(objects) == 0:
             result_file.write(frame_header + ", -, -, -, -, -, -;\n")
-            print("Frame with noch detection results")
+            # print("Frame with noch detection results")
         for obj in objects:
             # Validation bbox of detected object
             if obj['xmax'] > origin_im_size[1] or obj['ymax'] > origin_im_size[0] or obj['xmin'] < 0 or obj['ymin'] < 0:
@@ -378,7 +378,7 @@ def main():
                         "#" + det_label + ' ' + str(round(obj['confidence'] * 100, 1)) + ' %',
                         (obj['xmin'], obj['ymin'] - 7), cv2.FONT_HERSHEY_COMPLEX, 0.6, color, 1)
 
-            print(frame_header, ", ", str(obj['class_id']), ", " + str(round(obj['confidence'] * 100, 1)))
+            # print(frame_header, ", ", str(obj['class_id']), ", " + str(round(obj['confidence'] * 100, 1)))
 
             result_file.write(frame_header + ", " + str(obj['class_id']) + ", " + str(round(obj['confidence'] * 100, 1)) + ", " +
                               str(obj['xmin']) + ", " + str(obj['ymin']) + ", " +
@@ -403,7 +403,7 @@ def main():
 
         if process_video:
             out.write(frame)
-            print("wrote frame to video")
+            # print("wrote frame to video")
 
         else:
             if process_folder:
@@ -412,7 +412,7 @@ def main():
                 output_filename = result_path + os.path.basename(input_stream)
 
             cv2.imwrite(output_filename, frame)
-            print("wrote image to folder")
+            # print("wrote image to folder")
 
         frames_counter = frames_counter + 1
         render_time = time() - start_time
