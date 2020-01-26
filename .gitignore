@@ -3,7 +3,7 @@
 *.mp4
 *.avi
 
-face_testBuild/
+builds/
 
 models/
 

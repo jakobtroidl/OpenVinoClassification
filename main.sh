@@ -39,4 +39,4 @@ else
 fi
 
 # Run openvino face detection / classification on input
-./my_face_detection_demo -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
+./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
