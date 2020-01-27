@@ -2,6 +2,7 @@
 *.jpg
 *.mp4
 *.avi
+*.csv
 
 builds/
 
