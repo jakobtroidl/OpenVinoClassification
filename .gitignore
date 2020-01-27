@@ -5,7 +5,7 @@
 *.csv
 
 builds/
-
+data/
 models/
 
 .idea/
