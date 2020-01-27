@@ -17,10 +17,10 @@ age_gender_model=../models/gender_age/FP16/age-gender-recognition-retail-0013.xm
 
 if [ "$device" = "CPU" ]; then
     echo "Its a CPU"
-elif [ "$device" = "MYRIAD" ]; then
-    echo "its a MYRIAD"
     face_model=../models/facedetection/FP32/face-detection-retail-0004.xml
     age_gender_model=../models/gender_age/FP32/age-gender-recognition-retail-0013.xml
+elif [ "$device" = "MYRIAD" ]; then
+    echo "its a MYRIAD"
 elif [ "$device" = "GPU" ]; then
     echo "its a GPU"
     face_model=../models/facedetection/FP32/face-detection-retail-0004.xml
@@ -42,7 +42,9 @@ fi
 # ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
 
 if [ "$device" = "CPU" ]; then
-    ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device -l $cpu_extension;
+    echo "Its a CPU"
+    ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
 else
+    echo "sth else"
     ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
 fi
