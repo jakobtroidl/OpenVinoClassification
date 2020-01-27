@@ -37,29 +37,33 @@ with open(path) as csv_file:
     line_count = 0  # number of lines processed
     diff = 0
     # iterate through all lines in .csv file
+    counter = 0
     for row in csv_reader:
-        filename = row[0]
-        gt = filename.split("_")[class_idx_filename]
-        classification = row[class_index_csv]
-        
-        gt = gt.replace(" ", "")
-        gt = gt.replace(";", "")
-        classification = classification.replace(" ", "")
-        classification = classification.replace(";", "")
+        if counter > 0:
+            filename = row[0]
+            gt = filename.split("_")[class_idx_filename]
+            classification = row[class_index_csv]
 
-        try:
-            classification = float(classification)
-            gt = float(gt)
-        except ValueError:
-            continue
+            gt = gt.replace(" ", "")
+            gt = gt.replace(";", "")
+            classification = classification.replace(" ", "")
+            classification = classification.replace(";", "")
 
-        if gt < max_classification_value:
-            idx = int(gt / (max_classification_value / number_of_buckets))
-            buckets[idx] += abs(float(gt) - float(classification))
-            buckets_counter[idx] += 1
+            try:
+                classification = float(classification)
+                gt = float(gt)
+            except ValueError:
+                continue
 
-            diff += abs(float(gt) - float(classification))
-            line_count += 1
+            if gt < max_classification_value:
+                idx = int(gt / (max_classification_value / number_of_buckets))
+                buckets[idx] += abs(float(gt) - float(classification))
+                buckets_counter[idx] += 1
+
+                diff += abs(float(gt) - float(classification))
+                line_count += 1
+
+        counter += 1
 
     buckets = buckets / buckets_counter
     mean_deviation = (diff / (line_count - 1))
@@ -71,5 +75,7 @@ with open(path) as csv_file:
     plt.xlabel("Buckets")
     plt.ylabel('Average Error')
     plt.title('Average deviation of classification per bucket')
+
+    plt.savefig('../results/classification_deviation.png')
 
     plt.show()

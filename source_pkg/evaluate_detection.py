@@ -2,10 +2,16 @@ import csv
 import sys
 
 # Version 1: correct label globally valid
-# arg1:path_to_csv arg2:label_in_path(false) arg3:correct_label arg4:label_index
+# arg1 path_to_csv
+# arg2 label_in_path(false)
+# arg3 correct_label
+# arg4 label_index
 
 # Version 2: correct label encoded in filename
-# arg1:path_to_csv arg2:label_in_path(true) arg3:label_index_filepath arg4:label_index
+# arg1 path_to_csv
+# arg2 label_in_path(true)
+# arg3 label_index_filepath
+# arg4 label_index
 
 if len(sys.argv) < 5:
   sys.exit("Number of arguments is lower than 4")
