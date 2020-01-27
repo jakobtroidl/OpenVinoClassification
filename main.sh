@@ -39,7 +39,7 @@ else
 fi
 
 # Run openvino face detection / classification on input
-./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
+# ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
 
 if [ "$device" = "CPU" ]; then
     ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device -l $cpu_extension;
