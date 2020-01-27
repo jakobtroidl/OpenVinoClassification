@@ -43,7 +43,7 @@ fi
 
 if [ "$device" = "CPU" ]; then
     echo "Its a CPU"
-    ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
+    ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device -l $cpu_extension;
 else
     echo "sth else"
     ./face_detection -i $input -m $face_model -d $device -m_ag $age_gender_model -d_ag $device;
