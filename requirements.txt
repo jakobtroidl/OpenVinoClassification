@@ -1,1 +1,10 @@
-This will contain the requirements information soon
+
+This document describes which system configurations and software packages are necessary to use my OpenVino based Classification service
+
+1. The framework was tested on Ubuntu 18.04, I strongly recommend to use it as well
+2. OpenVino incl. all requirements that OpenVino depends on! 
+Check https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html for information about the installation of OpenVino. 
+Make sure to include support for theMovidius Neural Compute Stick 2 (NCS2).
+After setting up OpenVino it should be installed under /opt/intel/openvino/.
+3. Python package numpy must be installed 
+4. Python package matplotlib must be installed
