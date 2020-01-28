@@ -240,7 +240,7 @@ def main():
         number_input_frames = 1 if number_input_frames != -1 and number_input_frames < 0 else number_input_frames
 
     if process_video:
-        out = cv2.VideoWriter("/home/jakobtroidl/Desktop/resultsYOLO/out.avi", cv2.VideoWriter_fourcc('M', 'P', 'E', 'G'), 10, (int(cap.get(3)), int(cap.get(4))))
+        out = cv2.VideoWriter(result_path + "out.avi", cv2.VideoWriter_fourcc('M', 'P', 'E', 'G'), 10, (int(cap.get(3)), int(cap.get(4))))
 
     wait_key_code = 1
 
