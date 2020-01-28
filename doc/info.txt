@@ -1,0 +1,2 @@
+You can find the OpenVino documentation under
+https://docs.openvinotoolkit.org/2019_R2/index.html
