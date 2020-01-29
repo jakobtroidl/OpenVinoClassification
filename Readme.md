@@ -54,7 +54,7 @@
 I already did all the setup on the server. All you need to do is to execute some commands and have a look at the results.
 
 - In order to use my framework, login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
-- I already craeted a data/ folder with some sample data including your historic videos and the UTK face dataset, which I used to evaluate my work 
+- I already craeted a `data/` folder with some sample data including a sample images, videos and the UTK face dataset, which I used for evaluation
 - to test the **main functionality** using the CPU call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
@@ -69,7 +69,8 @@ I already did all the setup on the server. All you need to do is to execute some
 - the all results (.csv files and annotated images) are now written to the folder `results`
 
 - to **evaluate performance numbers** of a model on the CPU follow these steps:
-    - initilize OpenVino `source /opt/intel/openvino/bin/setupvars.sh`
+    - navigate to the `source_pkg` folder 
+    - initialize OpenVino `source /opt/intel/openvino/bin/setupvars.sh`
     - call `./benchmark_app -i /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg -m /home/jtroidl/OpenVINO_ClassificationService/models/facedetection/FP16/face-detection-retail-0004.xml -d CPU`
     - if you want to evaluate the performance numbers on the NCS2 replace CPU by MYRIAD
 
