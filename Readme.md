@@ -30,23 +30,29 @@
 
 **Troubleshoots**
  - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
+ - if you can an error similar to `cant initialize NC device, does not appear after boot` try to unplug the Neural Compute Stick and plug it in again. This will solve the error 90% of the time.
 
 ## How to use the OpenVino based Classification Service
 (at Daniel: now it gets interesting for you! ;) )
 
-- classification service can be called via the `main.sh` file in the root. the general syntax of this command is as follows: `main.sh arg1_input arg2_device`
+- classification service can be called via the `main.sh` file in the root. The general syntax of this command is as follows: `main.sh arg1_input arg2_device`
     - `arg1_input`: can be a path pointing to a single .jpg or .mp4 file or a path pointing to a folder of .jpg images
     - `arg2_device`: specifies the target device on which you want to interfer the service. It can either be `CPU` or `MYRIAD`
     - all results are written in the results folder. There are two .csv files containing information about the detection results and two folder containing the annotated images/videos
 
-- evaluation: todo
+- evaluation based on model performance (FPS/latency) can be studied using the `benchmark_app` inside the `source_pkg`folder. The general syntax of this command is as follows: `benchmark_app -i input_path -m model_to_evaluate -d device`
+- `-i input_path`: can be a path to an image or video
+- `-m model_to_evaluate`: should be a path to the .xml file of a model (can be found in the model folder)
+- `-d device`: should be either `CPU` or `MYRIAD`depending on which platform you want to evaluate the performance
+
+
 
 
 
 ## !! Specific information for Daniel !!
-I already did all setup setup. All you need to do is to execute some commands and have a look at the results.
+I already did all the setup on the server. All you need to do is to execute some commands and have a look at the results.
 
-- In order to use my framework login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
+- In order to use my framework, login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
 - I already craeted a data/ folder with some sample data including your historic videos and the UTK face dataset, which I used to evaluate my work 
 - to test the main functionality using the CPU call
 
@@ -56,16 +62,21 @@ I already did all setup setup. All you need to do is to execute some commands an
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg MYRIAD`
 - the all results (.csv files and annotated images) are now written to the folder `results`
 
+- if you want to test my framework on a video call
+
+`./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/videos/pedestrians_0.mp4 CPU`
+
+
 
 ## General Information about the framework 
 
 - videos in the results folder are safed uncompressed as .avi files. I recommend opening them using the VLC media player and exporting them in a compressed data format.
-- 
 
+- Please note that the `benchmark_app` was not developed by me. It is just a sample that comes with OpenVino. 
 
-How to use the OpenVino Classification Service
+- todo: information about csv file structure
+- where to find source code! todo
 
-1. main.sh tdo
 
 2. evaluate_detection.py 
     path_to_csv 
