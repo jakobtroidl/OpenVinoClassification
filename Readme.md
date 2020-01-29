@@ -48,8 +48,10 @@ I already did all setup setup. All you need to do is to execute some commands an
 
 - In order to use my framework login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
 - I already craeted a data/ folder with some sample data including your historic videos and the UTK face dataset, which I used to evaluate my work 
-- in order to test the main functionality using the CPU call `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
-- in order to test the main functionality using the CPU call `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg MYRIAD`
+- to test the main functionality using the CPU call 
+`./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
+- to test the main functionality using the CPU call 
+`./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg MYRIAD`
 - the all resuts (.csv files and annotated images) are now written to the folder 'results'
 
 
