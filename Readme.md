@@ -1,3 +1,19 @@
+## How to setup the OpenVino based Classification Service on your local machine 
+(at Daniel: you can skip this section since you will use it only on the server)
+
+1. Make sure your local system meets the OpenVino system requirements.  
+2. Install OpenVino from https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html and all dependencies of Openvino
+3. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
+4. Clone this repository
+5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo
+6. todo
+
+## How to use the OpenVino based Classification Service
+
+
+## General Information about the framework 
+
+
 How to use the OpenVino Classification Service
 
 1. main.sh tdo
