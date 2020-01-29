@@ -30,7 +30,7 @@
 
 **Troubleshoots**
  - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
- - if you can an error similar to `cant initialize NC device, does not appear after boot` try to unplug the Neural Compute Stick and plug it in again. This will solve the error 90% of the time.
+ - if you get an error similar to `cant initialize NC device, does not appear after boot` try to unplug the Neural Compute Stick and plug it in again. This will solve the error 90% of the time.
 
 ## How to use the OpenVino based Classification Service
 (at Daniel: now it gets interesting for you! ;) )
@@ -54,7 +54,7 @@
 I already did all the setup on the server. All you need to do is to execute some commands and have a look at the results.
 
 - In order to use my framework, login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
-- I already craeted a `data/` folder with some sample data including a sample images, videos and the UTK face dataset, which I used for evaluation
+- I already created a `data/` folder with some sample data including a sample images, videos and the UTK face dataset, which I used for evaluation
 - to test the **main functionality** using the CPU call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
