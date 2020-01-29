@@ -32,9 +32,23 @@
  - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
 
 ## How to use the OpenVino based Classification Service
-todo
+(at Daniel: now it gets interesting for you! ;) )
+
+- classification service can be called via the `main.sh` file in the root. the general syntax of this command is as follows: `main.sh arg1_input arg2_device`
+    - `arg1_input`: can be a path pointing to a single .jpg file or .mp4 file or a path pointing to a folder of .jpg images
+    - `arg2_device`: specifies the target device on which you want to interfer the service. It can either be `CPU` or `MYRIAD`
+    - all results are written in the results folder. There are two .csv files containing information about the detection results and two folder containing the annotated images/videos
+
+- evaluation: todo
+
+
+
+## !! Specific information for Daniel !!
 
 ## General Information about the framework 
+
+- videos in the results folder are safed uncompressed as .avi files. I recommend opening them using the VLC media player and exporting them in a compressed data format.
+- 
 
 
 How to use the OpenVino Classification Service
