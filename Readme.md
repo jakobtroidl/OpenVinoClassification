@@ -6,17 +6,21 @@
 (at Daniel: you can skip this section since you will use it only on the server)
 
   
-2. Install OpenVino (v2019_R3.1 or newer) from https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html and all dependencies of Openvino
-3. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
-4. Clone this repository
-5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
-6. Create a folder called `*builds*` inside the root with two subfolders called `*classification*` and `*evaluation*`
-7. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
-    1. **Build the OpenVino face_detection:** 
+1. Install OpenVino (v2019_R3.1 or newer) from https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html and all dependencies of Openvino
+2. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
+3. Clone this repository
+4. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
+5. Create a folder called `*builds*` inside the root with two subfolders called `*classification*` and `*evaluation*`
+6. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
+    **Build the OpenVino face_detection:** 
     - call `source /opt/intel/openvino/bin/setupvars.sh` to initialize OpenVino
     - Navigate to `/path/to/service/builds/classification` and call `cmake /path/to/service/src/classification`
     - Now call `make face_detection`
-    - under `/path/to/service/builds/classification/intel64/Release` you should find a 
+    - under `/path/to/service/builds/classification/intel64/Release` you should find a file called `face_detection`. Copy this file to the folder `/path/to/service/source_pkg/`
+
+    **Build the OpenVino benchmark_app:**
+    - todo
+
 
 **Troubleshoots**
  - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
