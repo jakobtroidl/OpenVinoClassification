@@ -61,11 +61,20 @@ I already did all the setup on the server. All you need to do is to execute some
 - to test the main functionality using the Neural Compute Stick call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg MYRIAD`
-- the all results (.csv files and annotated images) are now written to the folder `results`
 
 - if you want to test my framework on a video call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/videos/pedestrians_0.mp4 CPU`
+
+- the all results (.csv files and annotated images) are now written to the folder `results`
+
+- in order to evaluate the performance numbers of a model on the CPU follow these steps:
+    - initilize OpenVino `source /opt/intel/openvino/bin/setupvars.sh`
+    - call `./benchmark_app -i /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg -m /home/jtroidl/OpenVINO_ClassificationService/models/facedetection/FP16/face-detection-retail-0004.xml -d CPU`
+    - if you want to evaluate the performance numbers on the NCS2 replace CPU by MYRIAD
+
+
+
 
 
 
