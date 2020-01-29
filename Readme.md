@@ -12,7 +12,7 @@
 5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
 6. Create a folder called *builds* inside the root of this repo
 7. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
-    1. Build the OpenVino face_detection: 
+    1. **Build the OpenVino face_detection:** 
     - Navigate to the build folder and call `cmake /path/to/service/src/classification`
     - Now call `make face_detection`
 
