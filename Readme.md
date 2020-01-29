@@ -40,10 +40,13 @@
     - `arg2_device`: specifies the target device on which you want to interfer the service. It can either be `CPU` or `MYRIAD`
     - all results are written in the results folder. There are two .csv files containing information about the detection results and two folder containing the annotated images/videos
 
-- evaluation based on model performance (FPS/latency) can be studied using the `benchmark_app` inside the `source_pkg`folder. The general syntax of this command is as follows: `benchmark_app -i input_path -m model_to_evaluate -d device`
-- `-i input_path`: can be a path to an image or video
-- `-m model_to_evaluate`: should be a path to the .xml file of a model (can be found in the model folder)
-- `-d device`: should be either `CPU` or `MYRIAD`depending on which platform you want to evaluate the performance
+- evaluation based on model performance (FPS/latency) can be studied using the `benchmark_app` inside the `source_pkg`folder. The general syntax of this command is as follows: 
+
+`benchmark_app -i input_path -m model_to_evaluate -d device`
+
+    - `-i input_path`: can be a path to an image or video
+    - `-m model_to_evaluate`: should be a path to the .xml file of a model (can be found in the model folder)
+    - `-d device`: should be either `CPU` or `MYRIAD` depending on which platform you want to evaluate the performance
 
 
 
@@ -57,7 +60,7 @@ I already did all the setup on the server. All you need to do is to execute some
 - to test the main functionality using the CPU call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
-- to test the main functionality using the CPU call
+- to test the main functionality using the Neural Compute Stick call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg MYRIAD`
 - the all results (.csv files and annotated images) are now written to the folder `results`
