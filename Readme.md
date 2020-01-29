@@ -35,12 +35,12 @@
 ## How to use the OpenVino based Classification Service
 (at Daniel: now it gets interesting for you! ;) )
 
-- classification service can be called via the `main.sh` file in the root. The general syntax of this command is as follows: `main.sh arg1_input arg2_device`
+- the **classification service** can be called via the `main.sh` file in the root. The general syntax of this command is as follows: `main.sh arg1_input arg2_device`
     - `arg1_input`: can be a path pointing to a single .jpg or .mp4 file or a path pointing to a folder of .jpg images
     - `arg2_device`: specifies the target device on which you want to interfer the service. It can either be `CPU` or `MYRIAD`
     - all results are written in the results folder. There are two .csv files containing information about the detection results and two folder containing the annotated images/videos
 
-- evaluation based on model performance (FPS/latency) can be studied using the `benchmark_app` inside the `source_pkg`folder. The general syntax of this command is as follows: `benchmark_app -i input_path -m model_to_evaluate -d device`
+- the evaluation based on **model performance** (FPS/latency) can be studied using the `benchmark_app` inside the `source_pkg`folder. The general syntax of this command is as follows: `benchmark_app -i input_path -m model_to_evaluate -d device`
 
     - `-i input_path`: can be a path to an image or video
     - `-m model_to_evaluate`: should be a path to the .xml file of a model (can be found in the model folder)
@@ -55,7 +55,7 @@ I already did all the setup on the server. All you need to do is to execute some
 
 - In order to use my framework, login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
 - I already craeted a data/ folder with some sample data including your historic videos and the UTK face dataset, which I used to evaluate my work 
-- to test the main functionality using the CPU call
+- to test the **main functionality** using the CPU call
 
 `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
 - to test the main functionality using the Neural Compute Stick call
@@ -68,12 +68,12 @@ I already did all the setup on the server. All you need to do is to execute some
 
 - the all results (.csv files and annotated images) are now written to the folder `results`
 
-- in order to evaluate the performance numbers of a model on the CPU follow these steps:
+- to **evaluate performance numbers** of a model on the CPU follow these steps:
     - initilize OpenVino `source /opt/intel/openvino/bin/setupvars.sh`
     - call `./benchmark_app -i /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg -m /home/jtroidl/OpenVINO_ClassificationService/models/facedetection/FP16/face-detection-retail-0004.xml -d CPU`
     - if you want to evaluate the performance numbers on the NCS2 replace CPU by MYRIAD
 
-
+- to evaluate detection results todo
 
 
 
