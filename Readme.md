@@ -10,8 +10,9 @@
 2. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
 3. Clone this repository
 4. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
-5. Create a folder called `*builds*` inside the root with two subfolders called `*classification*` and `*evaluation*`
+5. Create a folder called `builds` inside the root with two subfolders called `classification` and `evaluation`
 6. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
+
     **Build the OpenVino face_detection:** 
     - call `source /opt/intel/openvino/bin/setupvars.sh` to initialize OpenVino
     - Navigate to `/path/to/service/builds/classification` and call `cmake /path/to/service/src/classification`
@@ -19,14 +20,19 @@
     - under `/path/to/service/builds/classification/intel64/Release` you should find a file called `face_detection`. Copy this file to the folder `/path/to/service/source_pkg/`
 
     **Build the OpenVino benchmark_app:**
-    - todo
+    - call `source /opt/intel/openvino/bin/setupvars.sh` to initialize OpenVino
+    - Navigate to `/path/to/service/builds/evaluation` and call `cmake /opt/intel/openvino/inference_engine/samples`
+    - Now call `make benchmark_app`
+    - under `/path/to/service/builds/evaluation/intel64/Release` you should find a file called `benchmark_app`. Copy this file to the folder `/path/to/service/source_pkg/`
+
+7. Check if setup was succesful by running `./main.sh /path/to/image.jpg CPU` . If it was executed without errors the setup was successful. 
 
 
 **Troubleshoots**
  - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
 
 ## How to use the OpenVino based Classification Service
-
+todo
 
 ## General Information about the framework 
 
