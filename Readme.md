@@ -1,5 +1,5 @@
 ## Prerequisites
-1. This system is designed for an Ubuntu 18.04 system.
+1. This system is designed for an Ubuntu 18.04 OS.
 2. Make sure your local system meets the OpenVino system requirements.
 
 ## How to setup the OpenVino based Classification Service on your local machine 
@@ -11,8 +11,10 @@
 4. Clone this repository
 5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
 6. Create a folder called *builds* inside the root of this repo
-7. Now we need to build the c++ samples. since all required software comes with the OpenVino installation, we should be ready to go.
-    1. hello world
+7. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
+    1. Build the OpenVino face_detection: 
+    - Navigate to the build folder and call `cmake /path/to/service/src/classification`
+    - Now call `make face_detection`
 
 ## How to use the OpenVino based Classification Service
 
