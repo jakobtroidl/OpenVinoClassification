@@ -35,7 +35,7 @@
 (at Daniel: now it gets interesting for you! ;) )
 
 - classification service can be called via the `main.sh` file in the root. the general syntax of this command is as follows: `main.sh arg1_input arg2_device`
-    - `arg1_input`: can be a path pointing to a single .jpg file or .mp4 file or a path pointing to a folder of .jpg images
+    - `arg1_input`: can be a path pointing to a single .jpg or .mp4 file or a path pointing to a folder of .jpg images
     - `arg2_device`: specifies the target device on which you want to interfer the service. It can either be `CPU` or `MYRIAD`
     - all results are written in the results folder. There are two .csv files containing information about the detection results and two folder containing the annotated images/videos
 
@@ -44,6 +44,14 @@
 
 
 ## !! Specific information for Daniel !!
+I already did all setup setup. All you need to do is to execute some commands and have a look at the results.
+
+- In order to use my framework login to the server and navigate to `/home/jtroidl/OpenVINO_ClassificationService/`. Please ask Theodor to get access to my home directory. 
+- I already craeted a data/ folder with some sample data including your historic videos and the UTK face dataset, which I used to evaluate my work 
+- in order to test the main functionality using the CPU call `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg CPU`
+- in order to test the main functionality using the CPU call `./main.sh /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg MYRIAD`
+- the all resuts (.csv files and annotated images) are now written to the folder 'results'
+
 
 ## General Information about the framework 
 
