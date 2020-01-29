@@ -1,12 +1,18 @@
+## Prerequisites
+1. This system is designed for an Ubuntu 18.04 system.
+2. Make sure your local system meets the OpenVino system requirements.
+
 ## How to setup the OpenVino based Classification Service on your local machine 
 (at Daniel: you can skip this section since you will use it only on the server)
 
-1. Make sure your local system meets the OpenVino system requirements.  
-2. Install OpenVino from https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html and all dependencies of Openvino
+  
+2. Install OpenVino (v2019_R3.1 or newer) from https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html and all dependencies of Openvino
 3. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
 4. Clone this repository
-5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo
-6. todo
+5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
+6. Create a folder called *builds* inside the root of this repo
+7. Now we need to build the c++ samples. since all required software comes with the OpenVino installation, we should be ready to go.
+    1. hello world
 
 ## How to use the OpenVino based Classification Service
 
