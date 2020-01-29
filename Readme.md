@@ -10,11 +10,16 @@
 3. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
 4. Clone this repository
 5. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
-6. Create a folder called *builds* inside the root of this repo
+6. Create a folder called `*builds*` inside the root with two subfolders called `*classification*` and `*evaluation*`
 7. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
     1. **Build the OpenVino face_detection:** 
-    - Navigate to the build folder and call `cmake /path/to/service/src/classification`
+    - call `source /opt/intel/openvino/bin/setupvars.sh` to initialize OpenVino
+    - Navigate to `/path/to/service/builds/classification` and call `cmake /path/to/service/src/classification`
     - Now call `make face_detection`
+    - under `/path/to/service/builds/classification/intel64/Release` you should find a 
+
+**Troubleshoots**
+ - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
 
 ## How to use the OpenVino based Classification Service
 
