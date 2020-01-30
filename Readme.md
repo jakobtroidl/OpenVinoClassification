@@ -11,7 +11,7 @@
 3. Clone this repository
 4. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
 5. Create a folder called `builds` inside the root with two subfolders called `classification` and `evaluation`
-6. Now we need to build the c++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
+6. Now we need to build the C++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
 
     **Build the OpenVino face_detection:** 
     - call `source /opt/intel/openvino/bin/setupvars.sh` to initialize OpenVino
@@ -46,9 +46,21 @@
     - `-m model_to_evaluate`: should be a path to the .xml file of a model (can be found in the model folder)
     - `-d device`: should be either `CPU` or `MYRIAD` depending on which platform you want to evaluate the performance
 
+- the evaluation based on model accuracy can be studied using the `evaluation_detection.py` and the `evaluate_classification.py` script:
 
-
-
+    - `evaluation_detection.py arg1_path_to_csv arg2_label_in_path arg3_correct_label arg4_label_index_in_csv`
+    - `arg1_path_to_csv`: path to the csv file you want to analyze
+    - `arg2_label_in_path`: either 0 or 1 interpreted as boolean value. Is the correct label encoded in the path filename?
+    - `arg3_correct_label`: if the correct label is encoded in the filename, then this argument is the index of the correct label inside the filename. e.g the filename looks like jakob_23_german.jpg the index of my age (23) would be 1. If the correct label is not encoded in the filename then this argument specifies the value of the correct label.
+    - `arg4_label_index_in_csv`: this argument specifies the index of the column in the csv file where the label of the detection result is written.
+- the evaluation based on classification like the estimation of the age, can be studied using the `evaluate_classification.py` script
+    - `evaluate_classification.py arg1_path_to_csv arg2_classification_index_filename arg3_classification_index_csv arg4_ number_of_buckets arg5_max_classification_value_to_be_considered`
+    - `arg1_path_to_csv`: path to the csv you want to analyze
+    - `arg2_classification_index_filename`: the index of the ground truth in the filename
+    - `arg3_classification_index_csv`: index of the classification in the csv file 
+    - `arg4_ number_of_buckets`: number of buckets in which you want to subdivide your classification space, e.g age estimation can be subdivided into certain age classes like 0-9 up to 90-99 (in this case this parameter would be 10)
+    - `arg5_max_classification_value_to_be_considered`: maximal classification value that shall be considered e.g the max age that should be considered is 100
+    - a corresponding plot is safed in the same directory
 
 ## !! Specific information for Daniel !!
 I already did all the setup on the server. All you need to do is to execute some commands and have a look at the results.
@@ -74,40 +86,29 @@ I already did all the setup on the server. All you need to do is to execute some
     - call `./benchmark_app -i /home/jtroidl/OpenVINO_ClassificationService/data/boy.jpg -m /home/jtroidl/OpenVINO_ClassificationService/models/facedetection/FP16/face-detection-retail-0004.xml -d CPU`
     - if you want to evaluate the performance numbers on the NCS2 replace CPU by MYRIAD
 
-- to evaluate detection results todo
+- if you wish to **evaluate the accuracy of the yoloV3** person detection, follow these steps
+    - navigate to the folder `source_pkg`
+    - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_yolo_results.csv 0 0 1`
+- if you wish to **evaluate the accuracy of the OpenVino** facial analysis model, follow these steps
+    - navigate to the folder `source_pkg`
+    - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 0 1 1`
+- if you wish to evaluate the accuracy of the gender estimation of the OpenVino facial analysis model, follow these steps
+    - navigate to the folder `source_pkg`
+    - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 1 1 6`
 
-
+- if you wish to evaluate the average age deviation of the age estimation of the OpenVino facial analysis model, follow these steps:
+    - navigate to the folder `source_pkg`
+    - `python3 evaluate_classification.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 0 7 10 100` 
+    - the corresponding plot is safed in the same directory
 
 
 ## General Information about the framework 
 
 - videos in the results folder are safed uncompressed as .avi files. I recommend opening them using the VLC media player and exporting them in a compressed data format.
 
-- Please note that the `benchmark_app` was not developed by me. It is just a sample that comes with OpenVino. 
+ - the source code of all python related scripts can be found in the `source_pkg` folder. The source of the face_dection binary in the same folder can be found under `/src/classification/face_detection`
 
-- todo: information about csv file structure
-- where to find source code! todo
+- information about the structure of resulting .csv files can be found in the first line of the respective csv file
 
-
-2. evaluate_detection.py 
-    path_to_csv 
-    label_in_path 
-    correct_label 
-    label_index_in_csv
-
-In order to evaluate the person detection accuracy of the yoloV3 model from the utk face dataset, run
-python3 evaluate_detection.py /path/to/service/results/yolo_results.csv 0 0 1
-
-
-In order to evaluate the detection accuracy of the OpenVino facial analysis model from the utk face dataset, run
-python3 evaluate_detection.py /path/to/service/results/face_detection_result.csv 0 1 1
-
-In order to evaluate the gender detection accuracy type 
-python3 evaluate_detection.py /path/to/service/results/face_detection_result.csv 1 1 6
-
-todo classification description
-
-
-
-3. evaluate_classification.py
+- Please note that the `benchmark_app` was not developed by me. It is just a sample that comes with OpenVino.
 
