@@ -88,7 +88,9 @@ I already did all the setup on the server. All you need to do is to execute some
 
 - if you wish to **evaluate the accuracy of the yoloV3** person detection, follow these steps
     - navigate to the folder `source_pkg`
-    - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_yolo_results.csv 0 0 1`
+    - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_yolo_result.csv 0 0 1`
+- i already prepared the csv files of the processed utk_faces/part2 for you since this takes about 30 min to process. In order to reproduce my evaluation results perform these steps
+
 - if you wish to **evaluate the accuracy of the OpenVino** facial analysis model, follow these steps
     - navigate to the folder `source_pkg`
     - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 0 1 1`
@@ -99,7 +101,7 @@ I already did all the setup on the server. All you need to do is to execute some
 - if you wish to **evaluate the average age deviation** of the OpenVino facial analysis model, follow these steps:
     - navigate to the folder `source_pkg`
     - `python3 evaluate_classification.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 0 7 10 100` 
-    - the corresponding plot is safed in the same directory
+    - the corresponding plot is safed in the result directory
 
 
 ## General Information about the framework 
