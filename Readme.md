@@ -92,11 +92,11 @@ I already did all the setup on the server. All you need to do is to execute some
 - if you wish to **evaluate the accuracy of the OpenVino** facial analysis model, follow these steps
     - navigate to the folder `source_pkg`
     - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 0 1 1`
-- if you wish to evaluate the accuracy of the gender estimation of the OpenVino facial analysis model, follow these steps
+- if you wish to **evaluate the accuracy of the gender estimation** of the OpenVino facial analysis model, follow these steps
     - navigate to the folder `source_pkg`
     - execute `python3 evaluate_detection.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 1 1 6`
 
-- if you wish to evaluate the average age deviation of the age estimation of the OpenVino facial analysis model, follow these steps:
+- if you wish to **evaluate the average age deviation** of the OpenVino facial analysis model, follow these steps:
     - navigate to the folder `source_pkg`
     - `python3 evaluate_classification.py /home/jtroidl/OpenVINO_ClassificationService/results/utkpart2_face_detection_result.csv 0 7 10 100` 
     - the corresponding plot is safed in the same directory
@@ -109,6 +109,8 @@ I already did all the setup on the server. All you need to do is to execute some
  - the source code of all python related scripts can be found in the `source_pkg` folder. The source of the face_dection binary in the same folder can be found under `/src/classification/face_detection`
 
 - information about the structure of resulting .csv files can be found in the first line of the respective csv file
+
+- all evaluation related sources have been completley developed by me, all other sources are based on the samples provided by OpenVino, but they are strongly customized for our needs by me
 
 - Please note that the `benchmark_app` was not developed by me. It is just a sample that comes with OpenVino.
 
