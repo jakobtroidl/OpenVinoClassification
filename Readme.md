@@ -25,12 +25,7 @@
     - Now call `make benchmark_app`
     - under `/path/to/service/builds/evaluation/intel64/Release` you should find a file called `benchmark_app`. Copy this file to the folder `/path/to/service/source_pkg/`
 
-7. Check if setup was succesful by running `./main.sh /path/to/image.jpg CPU` . If it was executed without errors the setup was successful. 
-
-
-**Troubleshoots**
- - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
- - if you get an error similar to `cant initialize NC device, does not appear after boot` try to unplug the Neural Compute Stick and plug it in again. This will solve the error 90% of the time.
+7. Check if setup was succesful by running `./main.sh /path/to/image.jpg CPU` . If it was executed without errors the setup was successful.
 
 ## How to use the OpenVino based Classification Service
 (at Daniel: now it gets interesting for you! ;) )
@@ -115,4 +110,8 @@ I already did all the setup on the server. All you need to do is to execute some
 - all evaluation related sources have been completley developed by me, all other sources are based on the samples provided by OpenVino, but they are strongly customized for our needs by me
 
 - Please note that the `benchmark_app` was not developed by me. It is just a sample that comes with OpenVino.
+
+## Troubleshoots
+ - reinitialize OpenVino using `source /opt/intel/openvino/bin/setupvars.sh`
+ - if you get an error similar to `cant initialize NC device, does not appear after boot` try to unplug the Neural Compute Stick and plug it in again. This will solve the error 90% of the time.
 
