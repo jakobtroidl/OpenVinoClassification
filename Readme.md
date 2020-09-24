@@ -6,10 +6,10 @@
 (at Daniel: you can skip this section since you will use it only on the server)
 
   
-1. Install OpenVino (v2019_R3.1 or newer) from https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html and all dependencies of Openvino
-2. install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
+1. Install [OpenVino](https://docs.openvinotoolkit.org/latest/_docs_install_guides_installing_openvino_linux.html) (v2019_R3.1 or newer) and all dependencies of Openvino
+2. Install all modules that are listed in the requirements.txt file of this repository if they are not yet installed
 3. Clone this repository
-4. Download and unzip (if neccessary) the required models from https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb . Paste the folder *models* inside the root of this repo.
+4. Download and unzip (if neccessary) the required [models](https://drive.google.com/open?id=1agkPt6rtCsaMt5iZd9A1D1ScG98BIksb). Paste the folder *models* inside the root of this repo.
 5. Create a folder called `builds` inside the root with two subfolders called `classification` and `evaluation`
 6. Now we need to build the C++ samples. Since all required software comes with the OpenVino installation, we should be ready to go.
 
